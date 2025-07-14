@@ -7,7 +7,7 @@ permalink: /cv/
 [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
 
 <details>
-<summary><strong>Education</strong></summary>
+<summary><h2>Education</h2></summary>
 
 **Ph.D.\*** Duke University, Clinical Psychology, Durham, NC 2017–2024  
 Dissertation Proposal: *A Self-Report Measure of Body Image Quality of Life: Development of a Multi-Item Instrument for the Assessment of Transgender Experiences of Embodiment in Adolescents*  
@@ -40,7 +40,7 @@ Telecommunications, Havana, Cuba
 </details>
 
 <details>
-<summary><strong>Languages</strong></summary>
+<summary><h2>Languages</h2></summary>
 
 **Spanish:** Native Language  
 **English:** Bilingual Proficiency
@@ -48,7 +48,7 @@ Telecommunications, Havana, Cuba
 </details>
 
 <details>
-<summary><strong>Internship Experience</strong></summary>
+<summary><h2>Internship Experience</h2></summary>
 
 **UTHealth Doctoral Psychology Internship Program, Houston, TX | 2023-present**
 
@@ -83,7 +83,7 @@ Supervisor: Katherine Loveland, Ph.D.
 </details>
 
 <details>
-<summary><strong>Practica Experience</strong></summary>
+<summary><h2>Practica Experience</h2></summary>
 
 **Child and Adolescent Health Psychology and Pediatric Neuropsychology | 2022-present**  
 Duke University Department of Psychiatry and Behavioral Sciences  
@@ -189,7 +189,7 @@ Provided psychotherapy services for Duke undergraduates and adults from the broa
 </details>
 
 <details>
-<summary><strong>Research Experience</strong></summary>
+<summary><h2>Research Experience</h2></summary>
 
 **Duke Population Science, Durham, NC | 2018–present**
 
@@ -296,7 +296,7 @@ Director: Charlotte Boettiger, Ph.D.
 </details>
 
 <details>
-<summary><strong>Publications</strong></summary>
+<summary><h2>Publications</h2></summary>
 
 ### Peer-Reviewed Journal Publications
 
@@ -357,7 +357,7 @@ Campbell, K., Carpenter, K., Hashemi, J., Espinosa, S., Marsan, S., Harris, A., 
 </details>
 
 <details>
-<summary><strong>Honors and Awards</strong></summary>
+<summary><h2>Honors and Awards</h2></summary>
 
 **CaDRE ($5000) | 2023–2024**  
 Career Development and Research Excellence (CaDRE) Program in Psychiatry Mentorship Program  
@@ -420,7 +420,7 @@ Miami Dade College, FL
 </details>
 
 <details>
-<summary><strong>Teaching Experience</strong></summary>
+<summary><h2>Teaching Experience</h2></summary>
 
 **Duke University, Durham, NC | Spring 2022**  
 Guest Lecturer, Treatment of Eating Disorders in Children and Adolescents  
@@ -471,7 +471,7 @@ Undergraduate course: Abnormal Psychology (PSY 105)
 </details>
 
 <details>
-<summary><strong>Mentorship</strong></summary>
+<summary><h2>Mentorship</h2></summary>
 
 **Duke University, Durham, NC | 2019–present**  
 Graduate Student Mentor, Senior Honors Theses  
@@ -498,7 +498,7 @@ Research Mentor, Matching Undergraduates to Science and Engineering Research (MU
 </details>
 
 <details>
-<summary><strong>Professional Training</strong></summary>
+<summary><h2>Professional Training</h2></summary>
 
 **Introduction to Structural Equation Modeling | Summer 2022**  
 - Completed a three-day virtual S.E.M. workshop using R statistical software  
@@ -515,7 +515,7 @@ Research Mentor, Matching Undergraduates to Science and Engineering Research (MU
 </details>
 
 <details>
-<summary><strong>Academic and Professional Affiliations</strong></summary>
+<summary><h2>Academic and Professional Affiliations</h2></summary>
 
 **SMART Recovery USA | 2025–present**  
 Smart Recovery 4-Point Facilitator Training
@@ -538,7 +538,7 @@ Honors student
 </details>
 
 <details>
-<summary><strong>Service and Outreach</strong></summary>
+<summary><h2>Service and Outreach</h2></summary>
 
 **Antiracism Virtual Office Hours Initiative | Fall 2020**  
 Consultant, held virtual office hours with graduate school applicants from diverse backgrounds, including BIPOC, LGBTQIA+, first generation, and/or low income  
@@ -573,7 +573,7 @@ Miami Dade College, FL
 </details>
 
 <details>
-<summary><strong>Computer Skills</strong></summary>
+<summary><h2>Computer Skills</h2></summary>
 
 **Statistics:** R, SPSS  
 **Applications:** EthoVision XT, NVivo, Qualtrics, REDCap, The Observer XT 12.5, Zotero
