@@ -3,7 +3,9 @@ description: "Curriculum Vitae and Portfolio"
 baseurl: ""  # Leave blank for root-level GitHub Pages sites
 url: "https://samuelmarsan.com"  # Your custom domain
 markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true
 theme: null
 plugins: []
 exclude: ["README.md"]
-
