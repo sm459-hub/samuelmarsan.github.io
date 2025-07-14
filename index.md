@@ -9,6 +9,8 @@ Currently open to clinical, research, and community-based roles that align with 
 
 [View Full CV](/cv/)
 
+[Publications](./publications/publications.md)
+
 <style>
 .libutton {
   display: flex;
