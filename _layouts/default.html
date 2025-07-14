@@ -1,1 +1,28 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+    a { color: #336699; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <hr>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <hr>
+    <p style="font-size: 0.9em;">&copy; {{ site.time | date: "%Y" }} Samuel Marsan</p>
+  </footer>
+</body>
+</html>
