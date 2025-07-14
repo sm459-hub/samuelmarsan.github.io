@@ -1,3 +1,9 @@
+---
+layout: default
+title: Curriculum Vitae
+permalink: /cv/
+---
+
 Samuel Marsan, M.A.
 
 Education
