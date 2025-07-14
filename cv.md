@@ -3,13 +3,7 @@ layout: default
 title: Curriculum Vitae
 permalink: /cv/
 ---
-
-📄 [View My CV](https://samuelmarsan.github.io/cv/)
----
-layout: default
-title: Home
----
-Samuel Marsan, M.A.
+# Samuel Marsan, M.A.
 
 [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
 
@@ -67,8 +61,6 @@ Telecommunications, Havana, Cuba
 
 # Internship Experience
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAFpCAMAAADdpkofAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAACdFJOU/8A5bcwSgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAP1JREFUaEPt2EsOwyAMRdFk/5suLc6Hn+1ErRSX+0ZP4sgCMUEsqzPL4qUJOul7posmmJyHyjYddDuQTTdp012a9JAWPUmDnqVOC6nSUn6PSslRaDVUp1Ik0GfTclGh9VgodEJaWeiEtJRQqEYrCX0yrSV0TBs5G23lZLQj56I9GZ92ZXjalxPRgQxOR3IaOpSh6VhGpvV/2zkNldJJXKrJuFS71oZK6SYq1WVUasj/p5aEHtSU0J3aEnqDOiRUqEdCM3VJ6IfqT8E9meZuBJqUU0KhwahXQqHQX1G3hEKh0Es0YalWoFAoFJqc10Kh16jXQqEXqdNCoXHour4A2dE4V+dxbgAAAAAASUVORK5CYII=)
-
 **UTHealth Doctoral Psychology Internship Program**, Houston, TX 2023-present
 
 **UTHealth Child and Family Psychotherapy Rotation** November 2023-June 2024
@@ -96,21 +88,9 @@ Supervisors: Katherine Loveland, Ph.D.
 
 - Conducted diagnostic intake interviews twice weekly with adults with autism-related concerns
 - Administered the Autism Diagnostic Observation Schedule-2 (ADOS-2) once weekly, modules 3 and 4
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAMAAABFaP0WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAACdFJOU/8A5bcwSgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAxJREFUGFdjAAIGBgAABgABr9uXpwAAAABJRU5ErkJggg==)
-
 - Wrote 5 integrative psychological reports
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAMAAABFaP0WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAACdFJOU/8A5bcwSgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAxJREFUGFdjAAIGBgAABgABr9uXpwAAAABJRU5ErkJggg==)
-
 - Co-led a 10-week support group with 5 autistic adults navigating various types of relationships (e.g., familial, professional, romantic, etc.)
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAMAAABFaP0WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAACdFJOU/8A5bcwSgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAxJREFUGFdjAAIGBgAABgABr9uXpwAAAABJRU5ErkJggg==)
-
 - Led a 4-week support group for 18 Spanish-speaking parents, and 12 military families, of autistic young adults.
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAMAAABFaP0WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAACdFJOU/8A5bcwSgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAxJREFUGFdjAAIGBgAABgABr9uXpwAAAABJRU5ErkJggg==)
-
 - Delivered weekly coaching sessions to autistic young adults in English or Spanish using modified motivational interviewing strategies
 - Supervised one practicum student in the delivery of weekly Cognitive Behavioral Therapy
 - Wrote intake reports twice weekly
