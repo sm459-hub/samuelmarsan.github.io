@@ -1,1 +1,9 @@
+title: "Samuel Marsan, M.A."
+description: "Curriculum Vitae and Portfolio"
+baseurl: ""  # Leave blank for root-level GitHub Pages sites
+url: "https://samuelmarsan.com"  # Your custom domain
+markdown: kramdown
+theme: null
+plugins: []
+exclude: ["README.md"]
 
