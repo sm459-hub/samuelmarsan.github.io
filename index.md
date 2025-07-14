@@ -1,4 +1,10 @@
 📄 [View My CV](https://samuelmarsan.github.io/cv/)
+---
+layout: default
+title: Home
+---
+
+Welcome to my professional portfolio. Please see my [CV](/cv/) or connect with me on [LinkedIn](https://www.linkedin.com/in/samuelmarsan).
 
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
