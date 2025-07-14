@@ -7,7 +7,8 @@ permalink: /cv/
 
 [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
 
-# Education
+<details>
+<summary><h2>Education</h2></summary>
 
 **Ph.D.\*** Duke University, Clinical Psychology, Durham, NC 2017- 2024
 
@@ -53,13 +54,19 @@ Telecommunications, Havana, Cuba
 
 \*Completed three full-time semesters of a Bachelor of Engineering (B.E.) program (studies interrupted by immigration to the United States)
 
-# Languages
+</details>
+
+<details>
+<summary><h2>Languages</h2></summary>
 
 **Spanish**: Native Language
 
 **English**: Bilingual Proficiency
 
-# Internship Experience
+</details>
+
+<details>
+<summary><h2>Internship Experience</h2></summary>
 
 **UTHealth Doctoral Psychology Internship Program**, Houston, TX 2023-present
 
@@ -96,7 +103,10 @@ Supervisors: Katherine Loveland, Ph.D.
 - Wrote intake reports twice weekly
 - Average time spent monthly at this site: 45 hours
 
-# Practica Experience
+</details>
+
+<details>
+<summary><h2>Practica Experience</h2></summary>
 
 **Child and Adolescent Health Psychology and Pediatric** 2022-present
 
@@ -225,7 +235,10 @@ three webinars)
 
 - Introduction to pediatric pharmacology (one didactic seminar) Spring 2020
 
-# Research Experience
+</details>
+
+<details>
+<summary><h2>Research Experience</h2></summary>
 
 **Duke Population Science**, Durham, NC 2018-present
 
@@ -365,7 +378,10 @@ Director: Charlotte Boettiger, Ph.D.
 - Completed an independent study \[Unpublished\] examining the effects of depressive mood states on attentional bias toward alcohol cues in persons who drink moderately
 - Co-authored a peer-reviewed manuscript comparing levels of alcohol consumption on attentional bias toward alcohol cues
 
-# Publications
+</details>
+
+<details>
+<summary><h2>Publications</h2></summary>
 
 ## Peer-Reviewed Journal Publications
 
@@ -419,7 +435,10 @@ Kumm, A.J., Campbell, K., **Marsan, S.,** Hashemi, J., Espinosa, S., Bloomfield,
 
 Campbell, K., Carpenter, K., Hashemi, J., Espinosa, S., **Marsan, S.,** Harris, A., Schaich Borg, J., Chang, Z., Qiu, Q., Tepper, M., Calderbank, R., Baker, J. P., Sapiro, G., Egger, H., & Dawson, G. (2016, May 11-14). _Computer vision detects delayed social orienting in toddlers with autism_ \[Conference session\]. 2016 International Meeting for Autism Research, Baltimore, MD, United States, <https://insar.confex.com/insar/2016/webprogram/Paper21470.html>
 
-# Honors and Awards
+</details>
+
+<details>
+<summary><h2>Honors and Awards</h2></summary>
 
 **CaDRE ($5000)** 2023-2024
 
@@ -513,7 +532,10 @@ Merit-based admission
 
 Miami Dade College, FL
 
-# Teaching Experience
+</details>
+
+<details>
+<summary><h2>Teaching Experience</h2></summary>
 
 **Duke University,** Durham, NC Spring 2022
 
@@ -578,7 +600,10 @@ Undergraduate course: Abnormal Psychology (PSY 105)
 - Coordinated grading with another teaching assistant
 - Held fixed weekly and appointment-based office hours
 
-# Mentorship
+</details>
+
+<details>
+<summary><h2>Mentorship</h2></summary>
 
 **Duke University**, Durham, NC 2019-present
 
@@ -608,7 +633,10 @@ Undergraduate course: Abnormal Psychology (PSY 105)
 - Developed and delivered training in qualitative and quantitative data analysis
 - Provided consultation in strategies for professional development
 
-# Professional Training
+</details>
+
+<details>
+<summary><h2>Professional Training</h2></summary>Professional Training
 
 **Introduction to Structural Equation Modeling** Summer 2022
 
@@ -628,7 +656,10 @@ Participated in a two-day seminar for minority students interested in applying t
 
 University of North Carolina at Chapel Hill, Chapel Hill, NC
 
-# academic and Professional Affiliations
+</details>
+
+<details>
+<summary><h2>Academic and Professional Affiliations</h2></summary>
 
 **SMART Recovery USA** 2025-present
 
@@ -654,7 +685,10 @@ College transfer student
 
 Honors student
 
-# Service and outreach
+</details>
+
+<details>
+<summary><h2>Service and outreach</h2></summary>
 
 **Antiracism Virtual Office Hours Initiative** Fall 2020
 
@@ -684,10 +718,16 @@ Performed duties in different leadership roles: College Algebra Tutor, provided 
 
 Student Body Representative, Miami Dade College, FL
 
-# Computer Skills
+</details>
+
+<details>
+<summary><h2>Computer Skills</h2></summary>
 
 **Statistics**: R, SPSS
 
 **Applications**: EthoVision XT, NVivo, Qualtrics, REDCap, The Observer XT 12.5, Zotero
 
-# References upon request
+</details>
+
+<details>
+<summary><h2>References upon request</h2></summary>
