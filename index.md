@@ -3,9 +3,9 @@ layout: default
 title: Samuel Marsan, M.A.
 ---
 
-I am a bilingual (English-Spanish) clinical psychology trainee with specialized training in transgender health, autism spectrum disorders, eating disorders, and multicultural mental health. With degrees from Duke University, UNC Chapel Hill, and Miami Dade College Honors College, I bring experience in research, psychotherapy, and advocacy across diverse communities.
+I am a bilingual (English-Spanish) master's level clinical psychology professional with specialized training in transgender health, autism spectrum disorders, eating disorders, and multicultural mental health. With degrees from Duke University (M.A.), University of Texas (Predoctoral Clinical Psychology Internship) UNC Chapel Hill (B.S.), and Miami Dade College Honors College|Dual Languange Program (A.A.), I bring experience in research, psychotherapy, and advocacy across diverse cultural and geographical communities.
 
-Currently open to clinical, research, and community-based roles that align with my expertise in evidence-based practice and inclusive care.
+Currently open to clinical, research, and community-based roles that align with my expertise in clinical resaerch, evidence-based practice, and inclusive care.
 
 [View Full CV](/cv/)
 
