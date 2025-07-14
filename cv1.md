@@ -1,9 +1,3 @@
----
-layout: default
-title: Curriculum Vitae
-permalink: /cv/
----
-
 📄 [View My CV](https://samuelmarsan.github.io/cv/)
 ---
 layout: default
