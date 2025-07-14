@@ -9,7 +9,7 @@ Currently open to clinical, research, and community-based roles that align with 
 
 [View Full CV](/cv/)
 
-[Publications](/publications/)
+[Publications](https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en)
 
 <style>
 .libutton {
