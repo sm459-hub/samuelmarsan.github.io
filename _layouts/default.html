@@ -24,9 +24,27 @@
     a:hover {
       text-decoration: underline;
     }
+    details {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+      color: #005792;
+      font-size: 1.1rem;
+    }
+    summary:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <h1>{{ page.title }}</h1>
   {{ content }}
 </body>
 </html>
