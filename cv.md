@@ -628,7 +628,7 @@ Participated in a two-day seminar for minority students interested in applying t
 
 University of North Carolina at Chapel Hill, Chapel Hill, NC
 
-# academic and Professional Affiliations
+# Academic and Professional Affiliations
 
 **SMART Recovery USA** 2025-present
 
