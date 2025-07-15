@@ -4,11 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      line-height: 1.6;
+      background-image: url('{{ "/assets/background.png" | relative_url }}');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      color: #212529;
+    }
+    h1, h2, h3 {
+      color: #005792;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    details {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+      color: #005792;
+      font-size: 1.1rem;
+    }
+    summary:hover {
+      text-decoration: underline;
+    }
+  </style>
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 </head>
 <body>
-  <div class="background-overlay"></div>
-  <div class="main-box">
+  <div style="background: rgba(255, 255, 255, 0.8); padding: 2rem;">
     <h1>{{ page.title }}</h1>
     {{ content | markdownify }}
   </div>
