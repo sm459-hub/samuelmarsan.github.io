@@ -6,6 +6,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   parse_block_html: true
-remote_theme: Time machine
+theme: null
 plugins: []
 exclude: ["README.md"]
