@@ -5,7 +5,7 @@ title: About Me
 
 # About Me
 
-![Headshot of Samuel Marsan](/assets/headshot.jpg){: style="max-width: 200px; border-radius: 100px; margin-bottom: 1rem;" }
+<img src="/assets/headshot.jpg" alt="Samuel Marsan headshot" style="width: 200px; border-radius: 50%; margin: 1rem auto; display: block;" />
 
 I am a bilingual (English–Spanish) clinical psychology professional with specialized training in transgender health, eating disorders, autism spectrum conditions, and multicultural mental health. My clinical and academic path has been shaped by a deep commitment to inclusive, evidence-based practice and a strong foundation in culturally responsive care.
 
