@@ -3,7 +3,7 @@ layout: default
 title: Curriculum Vitae
 permalink: /cv/
 ---
-Samuel Marsan, M.A.
+Samuel Marsán Pérez, M.A.
 
 [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
 
