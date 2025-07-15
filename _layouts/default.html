@@ -49,6 +49,14 @@
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 </head>
 <body>
+  <nav style="text-align: center; margin-bottom: 2rem;">
+    <a href="{{ '/' | relative_url }}" style="margin: 0 10px;">Home</a>
+    <a href="{{ '/about/' | relative_url }}" style="margin: 0 10px;">About Me</a>
+    <a href="{{ '/cv/' | relative_url }}" style="margin: 0 10px;">CV</a>
+    <a href="{{ '/teaching/' | relative_url }}" style="margin: 0 10px;">Teaching</a>
+    <a href="{{ '/research/' | relative_url }}" style="margin: 0 10px;">Research</a>
+    <a href="{{ '/contact/' | relative_url }}" style="margin: 0 10px;">Contact Me</a>
+  </nav>
   <div style="background: rgba(255, 255, 255, 0.85); padding: 2rem;">
     <h1>{{ page.title }}</h1>
     {{ content | markdownify }}
