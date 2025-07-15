@@ -1,7 +1,7 @@
 body {
-  background-image: url('_layouts/_includes/assets/background.png');
-  background-size: cover; /* or contain */
+  background-image: url('/assets/background.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* optional for parallax effect */
-  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
 }
