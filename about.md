@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Samuel Marsan headshot" style="width: 200px; border-radius: 50%; margin: 1rem auto; display: block;" />
+<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Samuel Marsan headshot" class="headshot" />
 
 ## Samuel Marsán Pérez, M.A.
 
