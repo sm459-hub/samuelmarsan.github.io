@@ -11,30 +11,23 @@
       margin: 2rem auto;
       padding: 1rem;
       line-height: 1.6;
-      background-color: #f8f9fa;
-      color: #212529;
-
-      /* Background image configuration */
-      background-image: url('/assets/background.png');
+      background-image: url('/assets/background.png'); /* ← this line updated */
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
+      color: #212529;
     }
-
     h1, h2, h3 {
       color: #005792;
     }
-
     a {
       color: #007bff;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }
-
     details {
       background: #fff;
       border: 1px solid #ccc;
@@ -43,21 +36,17 @@
       margin-bottom: 1rem;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
-
     summary {
       font-weight: bold;
       cursor: pointer;
       color: #005792;
       font-size: 1.1rem;
     }
-
     summary:hover {
       text-decoration: underline;
     }
   </style>
-
-  <!-- External CSS file (optional, can delete if using inline style only) -->
-  <!-- <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}"> -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
   <h1>{{ page.title }}</h1>
