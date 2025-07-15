@@ -4,21 +4,19 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 # Samuel Marsan, M.A.
-📧 [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
+[samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
 
 ## Education
-
-
 - *Ph.D.\*** Duke University, Clinical Psychology, Durham, NC 2017–2024
-**Dissertation Proposal:** _A Self-Report Measure of Body Image Quality of Life: Development of a Multi-Item Instrument for the Assessment of Transgender Experiences of Embodiment in Adolescents_
+Dissertation Proposal: *A Self-Report Measure of Body Image Quality of Life: Development of a Multi-Item Instrument for the Assessment of Transgender Experiences of Embodiment in Adolescents*
 Committee: Nancy Zucker, Ph.D. (Faculty Advisor), Melanie Bonner, Ph.D. (Chair), Sarah Gaither, Ph.D., Dane Whicker, Ph.D., Bryce Reeve, Ph.D.
 Internship: UTHealth Doctoral Psychology Internship Program (UTHDPIP)
 Internship Training Director: Katherine Loveland, Ph.D.
 Certificate of College Teaching
-**Expected degree conferral:** 2024
+Degree expected: 2024
 \*All but dissertation (ABD)
 - *M.A.** Duke University, Clinical Psychology, Durham, NC December 2020
-**Thesis:** _Measurement of body image in transgender children: A scoping review._
+Thesis: *Measurement of body image in transgender children: A scoping review.*
 Committee: Nancy Zucker, Ph.D. (Faculty Advisor), Melanie Bonner, Ph.D. (Chair), Sarah Gaither, Ph.D., Dane Whicker, Ph.D.
 - *B.S.** University of North Carolina at Chapel Hill December 2014
 Psychology, Chapel Hill, NC
@@ -35,16 +33,12 @@ Telecommunications, Havana, Cuba
 
 
 ## Languages
-
-
 - *Spanish:** Native Language
 - *English:** Bilingual Proficiency
 
 
 
 ## Internship Experience
-
-
 - *UTHealth Doctoral Psychology Internship Program, Houston, TX | 2023-present**
 - *UTHealth Child and Family Psychotherapy Rotation | November 2023-June 2024**
 Louis A. Faillace, MD Department of Psychiatry & Behavioral Sciences
@@ -75,8 +69,6 @@ Supervisor: Katherine Loveland, Ph.D.
 
 
 ## Practica Experience
-
-
 - *Child and Adolescent Health Psychology and Pediatric Neuropsychology | 2022-present**
 Duke University Department of Psychiatry and Behavioral Sciences
 Supervisors: Katharine Donlon, Ph.D., Sarah O'Rourke, Ph.D., Kyla Machell-Blalock, Ph.D.
@@ -171,8 +163,6 @@ Provided psychotherapy services for Duke undergraduates and adults from the broa
 
 
 ## Research Experience
-
-
 - *Duke Population Science, Durham, NC | 2018–present**
 - *Qualitative Research Analyst, Transgender Health Measurement-Concept Elicitation Pilot Study (Pro00101113)**
 PI: Bryce Reeve, Ph.D., Advisor: Nancy Zucker, Ph.D.
@@ -250,11 +240,7 @@ Director: Charlotte Boettiger, Ph.D.
 ## Publications
 
 
-
-
 ### Peer-Reviewed Journal Publications
-
-
 
 
 Ng, S., Liu, Y., Gaither, S., Marsan, S., & Zucker, N. (2021). The clash of culture and cuisine: A qualitative exploration of cultural tensions and attitudes toward food and body in Chinese young adult women. *International Journal of Eating Disorders, 54*(2), 174–183.
@@ -279,8 +265,6 @@ Faulkner, M. L., Baldner, C. S., Marsan, S., & Boettiger, C. A. (2014). Increase
 ### Manuscripts in Preparation
 
 
-
-
 Marsan, S., Mann, C., Hernandez, A., Bahnson, K., Russell, K., Zucker, N., Whicker, D., Marinkovic, M., Adkins, D., Hamilton, M., Ingledue, G., Ebuengan, G., McLaughlin, K., Henke, D., & Reeve, B. (2023). *A conceptual framework of gender dysphoria for trans youth through a developmental lens* [Manuscript in preparation]. Department of Psychology and Neuroscience, Duke University.
 
 Marsan, S., Dean, C., Christian, H., & Zucker, N. (2023). *Gaps in measurement of body image in children with gender dysphoria* [Manuscript in preparation]. Department of Psychology and Neuroscience, Duke University.
@@ -293,8 +277,6 @@ Citron, K., Marsan, S., Sundar, K., Dillon, A., Izquierdo, N., Mohamedali, L., &
 - --
 
 ### Selected Talks and Presentations
-
-
 
 
 Blacklock, C., Buzwell, S., Elphinstone, B., Tollit, M. A., Pace, C., Zwickl, S., Cheung, A. S., Citron, K., Zucker, N., Marsan, S., Pang, K. (2023, Nov 2–4). *The gender euphoria scale (GES): Development of a tool to measure gender euphoria* [Oral abstract]. AusPath Biennial Conference 2023, Melbourne, Australia.
@@ -318,8 +300,6 @@ Campbell, K., Carpenter, K., Hashemi, J., Espinosa, S., Marsan, S., Harris, A., 
 
 
 ## Honors and Awards
-
-
 - *CaDRE ($5000) | 2023–2024**
 Career Development and Research Excellence (CaDRE) Program in Psychiatry Mentorship Program
 Nominated by Katherine Loveland, Ph.D., Thomas Meyer, Ph.D., and Ana Ugueto, Ph.D.
@@ -369,8 +349,6 @@ Miami Dade College, FL
 
 
 ## Teaching Experience
-
-
 - *Duke University, Durham, NC | Spring 2022**
 Guest Lecturer, Treatment of Eating Disorders in Children and Adolescents
 Advanced undergraduate course: Clinical Interventions with Children and Families (PSY 436S)
@@ -415,8 +393,6 @@ Undergraduate course: Abnormal Psychology (PSY 105)
 
 
 ## Mentorship
-
-
 - *Duke University, Durham, NC | 2019–present**
 Graduate Student Mentor, Senior Honors Theses
 - Kiran Sundar; *Comparing felt gender pressure and gender typicality in transgender vs. cisgender adults* [Manuscript in preparation]; Expected graduation: May 2023
@@ -440,8 +416,6 @@ Research Mentor, Matching Undergraduates to Science and Engineering Research (MU
 
 
 ## Professional Training
-
-
 - *Introduction to Structural Equation Modeling | Summer 2022**
 - Completed a three-day virtual S.E.M. workshop using R statistical software
 - Curran-Bauer Analytics, Chapel Hill, NC
@@ -455,8 +429,6 @@ Research Mentor, Matching Undergraduates to Science and Engineering Research (MU
 
 
 ## Academic and Professional Affiliations
-
-
 - *SMART Recovery USA | 2025–present**
 Smart Recovery 4-Point Facilitator Training
 - *US Professional Association for Transgender Health (USPATH) | 2019–present**
@@ -473,8 +445,6 @@ Honors student
 
 
 ## Service and Outreach
-
-
 - *Antiracism Virtual Office Hours Initiative | Fall 2020**
 Consultant, held virtual office hours with graduate school applicants from diverse backgrounds, including BIPOC, LGBTQIA+, first generation, and/or low income
 Duke University, Durham, NC
@@ -502,7 +472,5 @@ Miami Dade College, FL
 
 
 ## Computer Skills
-
-
 - *Statistics:** R, SPSS
 - *Applications:** EthoVision XT, NVivo, Qualtrics, REDCap, The Observer XT 12.5, Zotero
