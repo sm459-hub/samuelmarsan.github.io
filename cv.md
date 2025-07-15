@@ -6,22 +6,6 @@ permalink: /cv/
 # Samuel Marsan, M.A.
 [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
 
-## Navigation
-
-- [Education](#education)
-- [Languages](#languages)
-- [Internship Experience](#internship-experience)
-- [Practica Experience](#practica-experience)
-- [Research Experience](#research-experience)
-- [Publications](#publications)
-- [Honors and Awards](#honors-and-awards)
-- [Teaching Experience](#teaching-experience)
-- [Mentorship](#mentorship)
-- [Professional Training](#professional-training)
-- [Academic and Professional Affiliations](#academic-and-professional-affiliations)
-- [Service and Outreach](#service-and-outreach)
-- [Computer Skills](#computer-skills)
-
 <details>
 <summary><h2>Education</h2></summary>
 
