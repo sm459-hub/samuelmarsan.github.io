@@ -1,38 +1,27 @@
 ---
 layout: default
-title: About Me
+title: "About Me"
 permalink: /about/
 ---
 
-# About Me
+<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Samuel Marsan headshot" style="width: 200px; border-radius: 50%; margin: 1rem auto; display: block;" />
 
-<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Samuel Marsan headshot" class="headshot" />
+## Samuel Marsán Pérez, M.A.
 
-I am a bilingual (English–Spanish) clinical psychology professional with specialized training in transgender health, eating disorders, autism spectrum conditions, and multicultural mental health. My clinical and academic path has been shaped by a deep commitment to inclusive, evidence-based practice and a strong foundation in culturally responsive care.
+I am a bilingual (English–Spanish) clinical psychology professional with specialized training in multicultural mental health, gender diversity, eating disorders, and autism spectrum conditions. My academic foundation includes an M.A. in Clinical Psychology from Duke University, a predoctoral internship at the University of Texas, a B.S. from UNC Chapel Hill, and an A.A. from the Honors College Dual Language Program at Miami Dade College.
 
-My academic training includes a Master’s degree in Clinical Psychology from **Duke University**, a predoctoral internship in Clinical Psychology at the **University of Texas Health Science Center**, and a Bachelor of Science in Psychology from **UNC-Chapel Hill**. Prior to that, I completed dual degrees at **Miami Dade College Honors College**, where I participated in a Spanish-English dual language program with a focus on interdisciplinary scholarship.
+My professional identity is rooted in both research and direct clinical practice, with a commitment to evidence-based, inclusive care. I bring experience working in interdisciplinary teams, delivering psychotherapy in English and Spanish, and engaging with diverse communities across the U.S. and Latin America.
 
-Over the past several years, I have engaged in psychotherapy, assessment, and research with a diverse range of populations in academic medical centers, university counseling clinics, and community health settings. My clinical work has emphasized adolescent mental health, gender-diverse youth, and evidence-based interventions for anxiety, mood, and eating disorders. My research complements this work, focusing on the development of psychometric tools that more accurately capture the lived experience of marginalized populations.
+My interests include:
+- Health equity and access for historically underserved groups
+- Gender-affirming care for adolescents and young adults
+- Measurement development in psychological assessment
+- Culturally responsive clinical research
 
-I am especially interested in the intersection of cultural identity, embodiment, and mental health outcomes. My master’s thesis and dissertation research have focused on improving measurement tools to assess body image and quality of life in transgender adolescents.
+I am currently seeking roles that align with my dedication to culturally attuned, empirically supported mental health services.
 
-I am currently open to roles that integrate clinical practice, research, and training—particularly those that align with values of health equity, linguistic and cultural inclusion, and interdisciplinary collaboration.
+[📄 View My Full CV](/cv/)
 
----
+[🔬 Publications on Google Scholar](https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en)
 
-## Areas of Expertise
-
-- Adolescent and young adult mental health  
-- Transgender health and gender-affirming care  
-- Eating disorders and embodiment  
-- Autism spectrum conditions  
-- Psychometrics and clinical assessment  
-- Bilingual and bicultural mental health services  
-- Community-engaged research and psychoeducation  
-
----
-
-📫 [Contact Me](/contact/)  
-🔗 [LinkedIn](https://www.linkedin.com/in/samuel-marsán-pérez-m-a-87961597)  
-📄 [Curriculum Vitae](/cv/)  
-📚 [Google Scholar Publications](https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en)
+[💼 Connect on LinkedIn](https://www.linkedin.com/in/samuel-marsán-pérez-m-a-87961597)
