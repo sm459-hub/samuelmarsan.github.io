@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/background.png');
+  background-image: url('_layouts/_includes/assets/background.png');
   background-size: cover; /* or contain */
   background-repeat: no-repeat;
   background-attachment: fixed; /* optional for parallax effect */
