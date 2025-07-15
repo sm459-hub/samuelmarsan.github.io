@@ -1,7 +1,80 @@
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  line-height: 1.75;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url('/assets/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  z-index: -1;
+  opacity: 0.3;
+  filter: blur(2px);
+}
+
+.main-box {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+h1, h2, h3 {
+  color: #005792;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+details {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #005792;
+  font-size: 1.1rem;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .background-overlay {
+    display: none;
+  }
+
+  .main-box {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
 }
