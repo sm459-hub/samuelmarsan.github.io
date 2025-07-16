@@ -12,10 +12,12 @@
       padding: 1rem;
       line-height: 1.6;
       background-image: url('{{ "/assets/background.png" | relative_url }}');
-      background-size: cover;
+      background-size: contain;         /* Prevents zooming/stretching */
       background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
+      background-position: top center;  /* Keeps alignment consistent */
+      background-attachment: scroll;    /* Avoids issues on mobile */
+}
+
       color: #212529;
     }
     h1, h2, h3 {
