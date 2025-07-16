@@ -6,28 +6,51 @@
   <title>{{ page.title }}</title>
   <style>
     body {
+      margin: 0;
+      padding: 0;
       font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      line-height: 1.6;
       background-image: url('{{ "/assets/background.png" | relative_url }}');
-      background-size: contain;         /* Prevents zooming/stretching */
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: top center;  /* Keeps alignment consistent */
-      background-attachment: scroll;    /* Avoids issues on mobile */
+      background-position: top center;
+      background-attachment: scroll;
       color: #212529;
     }
+
+    nav {
+      text-align: center;
+      padding: 1rem 0;
+      background: rgba(255, 255, 255, 0.9);
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #005792;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content-wrapper {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+
     h1, h2, h3 {
       color: #005792;
     }
+
     a {
       color: #007bff;
-      text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
-    }
+
     details {
       background: #fff;
       border: 1px solid #ccc;
@@ -36,28 +59,61 @@
       margin-bottom: 1rem;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
+
     summary {
       font-weight: bold;
       cursor: pointer;
       color: #005792;
       font-size: 1.1rem;
     }
+
     summary:hover {
       text-decoration: underline;
     }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .content-wrapper {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      nav {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+    }
   </style>
-<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 </head>
 <body>
-  <nav style="text-align: center; margin-bottom: 2rem;">
-    <a href="{{ '/' | relative_url }}" style="margin: 0 10px;">Home</a>
-    <a href="{{ '/about/' | relative_url }}" style="margin: 0 10px;">About Me</a>
-    <a href="{{ '/cv/' | relative_url }}" style="margin: 0 10px;">CV</a>
-    <a href="{{ '/teaching/' | relative_url }}" style="margin: 0 10px;">Teaching</a>
-    <a href="{{ '/research/' | relative_url }}" style="margin: 0 10px;">Research</a>
-    <a href="{{ '/contact/' | relative_url }}" style="margin: 0 10px;">Contact Me</a>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/about/' | relative_url }}">About Me</a>
+    <a href="{{ '/cv/' | relative_url }}">CV</a>
+    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    <a href="{{ '/research/' | relative_url }}">Research</a>
+    <a href="{{ '/contact/' | relative_url }}">Contact Me</a>
   </nav>
-  <div style="background: rgba(255, 255, 255, 0.85); padding: 2rem;">
+
+  <div class="content-wrapper">
     <h1>{{ page.title }}</h1>
     {{ content | markdownify }}
   </div>
