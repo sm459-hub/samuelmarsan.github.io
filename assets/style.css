@@ -1,9 +1,25 @@
 body {
   background-image: url('{{ "/assets/background.png" | relative_url }}');
-  background-size: contain;         /* Prevents zooming/stretching */
+  background-size: contain;             /* Prevents zooming/stretching */
   background-repeat: no-repeat;
-  background-position: top center;  /* Keeps alignment consistent */
-  background-attachment: scroll;    /* Avoids issues on mobile */
+  background-position: top center;      /* Ensures consistent alignment */
+  background-attachment: scroll;        /* Ensures mobile compatibility */
+  background-color: white;              /* Fallback color */
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 
 .headshot {
