@@ -1,10 +1,11 @@
 body {
-  background-image: url('/assets/background.png');
-  background-size: cover;
+  background-image: url('{{ "/assets/background.png" | relative_url }}');
+  background-size: contain;         /* Prevents zooming/stretching */
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: top center;  /* Keeps alignment consistent */
+  background-attachment: scroll;    /* Avoids issues on mobile */
 }
+
 .headshot {
   width: 200px;
   height: 200px;
