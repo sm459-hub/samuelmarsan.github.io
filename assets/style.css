@@ -63,6 +63,10 @@ h1, h2, h3 {
 
 a {
   color: #007bff;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #005792;
 }
 
 details {
