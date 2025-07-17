@@ -7,7 +7,7 @@ body {
   background-size: cover;                         /* Ensures full background coverage */
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;
+  background-attachment: scroll; /* Replaces fixed for smoother mobile experience */
   color: #212529;
   min-height: 100vh;
 }
