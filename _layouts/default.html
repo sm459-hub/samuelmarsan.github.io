@@ -7,18 +7,22 @@
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/about/' | relative_url }}">About Me</a>
-    <a href="{{ '/cv/' | relative_url }}">CV</a>
-    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact Me</a>
-  </nav>
+  <div class="background-layer"></div>
 
-  <div class="content-wrapper">
-    <h1>{{ page.title }}</h1>
-    {{ content | markdownify }}
+  <div class="main-layer">
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About Me</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact Me</a>
+    </nav>
+
+    <div class="content-wrapper">
+      <h1>{{ page.title }}</h1>
+      {{ content | markdownify }}
+    </div>
   </div>
 </body>
 </html>
