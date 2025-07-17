@@ -57,16 +57,21 @@
     const menu = document.getElementById("dropdownMenu");
     menu.style.display = menu.style.display === "block" ? "none" : "block";
   }
-
-  // Optional: Close dropdown if clicked outside
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      const dropdowns = document.getElementsByClassName("dropdown-content");
-      for (let i = 0; i < dropdowns.length; i++) {
-        dropdowns[i].style.display = "none";
-      }
+      
+  // Show the button after scrolling down 400px
+  window.onscroll = function () {
+    const btn = document.getElementById("topBtn");
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
     }
   };
+
+  // Scroll smoothly to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 </script>
 </body>
 </html>
