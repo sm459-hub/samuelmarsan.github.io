@@ -1,16 +1,18 @@
+/* Base Layout */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('/assets/background.png');
-  background-size: contain;
+  background-image: url('/assets/background.png'); /* Adjusted for static CSS file */
+  background-size: cover;                         /* Ensures full background coverage */
   background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: scroll;
-  min-height: 100vh;
+  background-position: center top;
+  background-attachment: fixed;
   color: #212529;
+  min-height: 100vh;
 }
 
+/* Navigation Bar */
 nav {
   text-align: center;
   padding: 1rem 0;
@@ -28,15 +30,17 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Main Content Container */
 .content-wrapper {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.85); /* Soft translucent background */
   border-radius: 12px;
   box-sizing: border-box;
 }
 
+/* Typography */
 h1, h2, h3 {
   color: #005792;
 }
@@ -63,6 +67,16 @@ summary {
 
 summary:hover {
   text-decoration: underline;
+}
+
+/* Circular Headshot Image */
+.headshot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
 }
 
 /* Responsive Design */
@@ -93,13 +107,4 @@ summary:hover {
   h3 {
     font-size: 1.1rem;
   }
-}
-
-.headshot {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 1rem auto;
-  display: block;
 }
