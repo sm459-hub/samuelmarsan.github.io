@@ -3,13 +3,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('/assets/background.png'); /* Adjusted for static CSS file */
-  background-size: cover;                         /* Ensures full background coverage */
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: scroll; /* Replaces fixed for smoother mobile experience */
   color: #212529;
   min-height: 100vh;
+}
+
+/* Background fixed layer */
+.background-layer {
+  background-image: url('/assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+/* Content layer that scrolls */
+.main-layer {
+  position: relative;
+  z-index: 1;
 }
 
 /* Navigation Bar */
@@ -17,6 +32,7 @@ nav {
   text-align: center;
   padding: 1rem 0;
   background: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
 }
 
 nav a {
@@ -35,7 +51,7 @@ nav a:hover {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.85); /* Soft translucent background */
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   box-sizing: border-box;
 }
@@ -84,8 +100,9 @@ summary:hover {
   .content-wrapper {
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 1rem;
+    padding: 1.5rem;
   }
-}
 
   nav {
     font-size: 0.9rem;
