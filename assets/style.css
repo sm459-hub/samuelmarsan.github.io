@@ -1,13 +1,4 @@
-/* Base Layout */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  color: #212529;
-  min-height: 100vh;
-}
-
-/* Background fixed layer */
+/* Background fixed layer for parallax effect */
 .background-layer {
   background-image: url('/assets/background.png');
   background-size: cover;
@@ -21,10 +12,19 @@ body {
   z-index: -2;
 }
 
-/* Content layer that scrolls */
+/* Main scrolling content layer */
 .main-layer {
   position: relative;
   z-index: 1;
+}
+
+/* Base Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #212529;
+  min-height: 100vh;
 }
 
 /* Navigation Bar */
@@ -32,7 +32,7 @@ nav {
   text-align: center;
   padding: 1rem 0;
   background: rgba(255, 255, 255, 0.9);
-  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 nav a {
@@ -40,10 +40,12 @@ nav a {
   text-decoration: none;
   color: #005792;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: #003f63;
 }
 
 /* Main Content Container */
@@ -54,19 +56,18 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   box-sizing: border-box;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Typography */
 h1, h2, h3 {
   color: #005792;
+  transition: color 0.3s ease;
 }
 
 a {
   color: #007bff;
   transition: color 0.3s ease;
-}
-a:hover {
-  color: #005792;
 }
 
 details {
@@ -76,6 +77,7 @@ details {
   padding: 1rem;
   margin-bottom: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
 }
 
 summary {
@@ -83,10 +85,12 @@ summary {
   cursor: pointer;
   color: #005792;
   font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 summary:hover {
   text-decoration: underline;
+  color: #003f63;
 }
 
 /* Circular Headshot Image */
@@ -97,6 +101,11 @@ summary:hover {
   border-radius: 50%;
   margin: 1rem auto;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.headshot:hover {
+  transform: scale(1.05);
 }
 
 /* Responsive Design */
