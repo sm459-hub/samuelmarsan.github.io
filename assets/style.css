@@ -84,6 +84,11 @@ nav a:hover {
   background-color: #f1f1f1;
 }
 
+nav {
+  position: relative;
+  z-index: 10;
+}
+
 /* Main Content Container */
 .content-wrapper {
   max-width: 800px;
