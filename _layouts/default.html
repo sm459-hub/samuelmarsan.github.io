@@ -12,14 +12,31 @@
 
   <!-- Scrollable Main Content Layer -->
   <div class="main-layer">
-    <nav>
+
+<nav>
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/about/' | relative_url }}">About Me</a>
+
+  <div class="dropdown" id="cv-dropdown">
+    <button class="dropbtn" onclick="toggleDropdown()">CV ▼</button>
+    <div class="dropdown-content" id="dropdownMenu">
+      <a href="{{ '/cv/#education' | relative_url }}">Education</a>
+      <a href="{{ '/cv/#clinical-experience' | relative_url }}">Clinical Experience</a>
+      <a href="{{ '/cv/#research' | relative_url }}">Research</a>
+      <a href="{{ '/cv/#presentations' | relative_url }}">Presentations</a>
+      <a href="{{ '/cv/#publications' | relative_url }}">Publications</a>
+    </div>
+  </div>
+</nav>
+    
+   <!-- <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/about/' | relative_url }}">About Me</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <!--<a href="{{ '/teaching/' | relative_url }}">Teaching</a>
       <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact Me</a>-->
-    </nav>
+      <a href="{{ '/contact/' | relative_url }}">Contact Me</a>
+    </nav>-->
 
     <div class="content-wrapper">
       <h1>{{ page.title }}</h1>
