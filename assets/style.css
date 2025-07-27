@@ -203,3 +203,31 @@ summary:hover {
     font-size: 1.0rem;
   }
 }
+.main-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.sidebar {
+  min-width: 200px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #005792;
+  font-weight: bold;
+}
+
+.sidebar nav a:hover {
+  text-decoration: underline;
+}
