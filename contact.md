@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Contact
+title: Contact Me
 permalink: /contact/
 ---
-
-## Contact Me
 
 Thank you for your interest in coaching services. I welcome inquiries from individuals, parents, caregivers, and professionals seeking support around:
 
