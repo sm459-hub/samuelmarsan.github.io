@@ -4,8 +4,6 @@ layout: default
 permalink: /faq/
 ---
 
-## Frequently Asked Questions
-
 ### ❓ How is coaching different from psychotherapy or psychiatry?
 
 **Coaching** is a collaborative, goal-focused relationship that supports skill-building, life planning, and personal growth. Unlike therapy or psychiatry:
