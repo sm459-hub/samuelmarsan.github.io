@@ -4,8 +4,6 @@ title: Gender Identity Exploration Coaching
 permalink: /gender-coaching/
 ---
 
-# Gender Identity Exploration Coaching
-
 Exploring your gender identity or seeking to live more authentically? I provide **affirming and intersectional coaching** for individuals and families navigating gender identity, transition, or gender expression.
 
 ## What Is Gender Identity Coaching?
