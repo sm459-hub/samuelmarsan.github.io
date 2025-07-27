@@ -4,8 +4,6 @@ title: Executive Functioning Coaching
 permalink: /executive-coaching/
 ---
 
-# Executive Functioning Coaching
-
 Do you struggle with planning, organizing, staying focused, or managing time effectively? I offer **neurodiversity-affirming executive functioning coaching** to help teens, adults, and professionals strengthen the skills needed for personal, academic, and professional success.
 
 ## What Is Executive Function Coaching?
