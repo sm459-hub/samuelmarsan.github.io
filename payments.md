@@ -4,8 +4,6 @@ title: Make a Payment
 permalink: /payments/
 ---
 
-## Make a Payment
-
 Thank you for choosing to work together. You can use the options below to send payment securely for coaching services, sliding-scale donations, or humanitarian contributions.
 
 ---
