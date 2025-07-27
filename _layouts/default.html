@@ -12,71 +12,48 @@
 
   <!-- Scrollable Main Content Layer -->
   <div class="main-layer">
-
-<nav>
-  <a href="{{ '/' | relative_url }}">Home</a>
-  <a href="{{ '/about/' | relative_url }}">About Me</a>
-
-  <div class="dropdown" id="cv-dropdown">
-    <button class="dropbtn" onclick="toggleDropdown()">CV ▼</button>
-    <div class="dropdown-content" id="dropdownMenu">
-      <a href="{{ '/cv/#education' | relative_url }}">Education</a>
-      <a href="{{ '/cv/#languages' | relative_url }}">Languages</a>
-      <a href="{{ '/cv/#internship-experience' | relative_url }}">Internship Experience</a>
-      <a href="{{ '/cv/#practica-experience' | relative_url }}">Practica Experience</a>
-      <a href="{{ '/cv/#research-experience' | relative_url }}">Research Experience</a>
-      <a href="{{ '/cv/#publications' | relative_url }}">Publications</a>
-      <a href="{{ '/cv/#honors-and-awards' | relative_url }}">Honors and Awards</a>
-      <a href="{{ '/cv/#teaching-experience' | relative_url }}">Teaching Experience</a>
-      <a href="{{ '/cv/#mentorship' | relative_url }}">Mentorship</a>
-      <a href="{{ '/cv/#professional-training' | relative_url }}">Professional Training</a>
-      <a href="{{ '/cv/#academic-and-professional-affiliations' | relative_url }}">Academic and Professional Affiliations</a>
-      <a href="{{ '/cv/#service-and-outreach' | relative_url }}">Service and Outreach</a>
-      <a href="{{ '/cv/#computer-skills' | relative_url }}">Computer Skills</a>
-      <a href="{{ '/cv/#references-upon-request' | relative_url }}">References Upon Request</a>
-    </div>
-  </div>
-</nav>
-    
-   <!-- <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/about/' | relative_url }}">About Me</a>
-      <a href="{{ '/cv/' | relative_url }}">CV</a>
-      <!--<a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact Me</a>
-    </nav>-->
-
-    <div class="content-wrapper">
-      <h1>{{ page.title }}</h1>
-      {{ content | markdownify }}
-    </div>
-  </div>
-  
-  <!-- Back to Top Button -->
-<button onclick="scrollToTop()" id="topBtn" title="Back to Top">↑ Top</button>
- 
-  <!--Scroll Script -->
-    <script>
-  function toggleDropdown() {
-    const menu = document.getElementById("dropdownMenu");
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
-  }
+    <div class="main-container">
       
-  // Show the button after scrolling down 400px
-  window.onscroll = function () {
-    const btn = document.getElementById("topBtn");
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  };
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About Me</a></li>
+            <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+            <li><a href="{{ '/executive-coaching/' | relative_url }}">Executive Functioning Coaching</a></li>
+            <li><a href="{{ '/gender-coaching/' | relative_url }}">Gender Identity Coaching</a></li>
+          </ul>
+        </nav>
+      </aside>
 
-  // Scroll smoothly to top
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-</script>
+      <!-- Main Page Content -->
+      <div class="content-wrapper">
+        {{ content | markdownify }}
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button onclick="scrollToTop()" id="topBtn" title="Back to Top">↑ Top</button>
+
+  <!-- Scripts -->
+  <script>
+    function toggleDropdown() {
+      const menu = document.getElementById("dropdownMenu");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    window.onscroll = function () {
+      const btn = document.getElementById("topBtn");
+      btn.style.display = (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) ? "block" : "none";
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
+
