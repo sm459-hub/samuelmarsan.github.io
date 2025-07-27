@@ -16,7 +16,7 @@ You can pay using your phone’s camera or the Venmo app by scanning the code be
 
 **@Samuel-Marsan**
 
-<img src="{{ '/assets/venmo-qrcode.jpg' | relative_url }}" alt="Venmo QR Code for Samuel Marsan" style="max-width: 300px; margin: 1rem auto; display: block;" />
+<img src="{{ '/assets/venmo_me.jpg' | relative_url }}" alt="Venmo QR Code for Samuel Marsan" style="max-width: 300px; margin: 1rem auto; display: block;" />
 
 If you can’t scan the QR code, just click the button below to go directly to my Venmo profile:
 
