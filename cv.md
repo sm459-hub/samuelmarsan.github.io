@@ -5,8 +5,6 @@ permalink: /cv/
 ---
 Samuel Marsán Pérez, M.A.
 
-[samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com)
-
 # Education
 
 **Ph.D.\*** Duke University, Clinical Psychology, Durham, NC 2017- 2024
