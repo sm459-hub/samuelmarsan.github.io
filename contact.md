@@ -4,10 +4,6 @@ title: Work With Me
 permalink: /contact/
 ---
 
-## 📩 Email
-
-Start here by emailing me at:  
-**samuelmarsan@gmail.com**  
 _I reply in 2–3 business days._
 
 ---
