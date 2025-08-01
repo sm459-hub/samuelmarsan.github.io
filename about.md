@@ -13,12 +13,12 @@ I am a bilingual (English–Spanish) life coach with clinical psychology trainin
 
 ### Interests  
 - Health equity & access for historically underserved groups  
-- Gender-affirming care for adolescents & young adults  
+- Gender-affirming support for adolescents & young adults  
 - Measurement development in psychological assessment  
-- Culturally attuned clinical interventions
+- Culturally attuned pscychosocial support
 
 ### Roles & Goals  
-Currently seeking faculty and leadership roles that leverage my dual expertise in **teaching**, **research** and **practice**, while continuing to support clients as a certified coach.
+Currently seeking faculty and leadership roles that leverage my experience in **teaching**, **research** and **practice**, while continuing to support clients as a life coach.
 
 ---
 
