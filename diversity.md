@@ -3,7 +3,6 @@ layout: default
 title: Diversity & Inclusion
 permalink: /diversity/
 ---
-{% include _nav.html %}
 
 ## Statement
 
