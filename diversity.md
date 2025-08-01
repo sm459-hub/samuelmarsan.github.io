@@ -14,9 +14,9 @@ permalink: /diversity/
 - Explicit inclusion statements on all syllabi
 
 ### Artifact  
-<a href="/assets/PSY105_Diversity_Statement.pdf"
+<a href="/assets/Diversity_Statement.pdf"
    target="_blank"
    rel="noopener"
    aria-label="Download Diversity Statement">
-  Download PSY 105 Diversity Statement (PDF)
+  Diversity Statement (PDF)
 </a>
