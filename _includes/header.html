@@ -1,35 +1,23 @@
-<nav>
-  <a href="{{ '/' | relative_url }}">Home</a>
-  <a href="{{ '/about/' | relative_url }}">About Me</a>
+<nav role="navigation" aria-label="Main site navigation">
+  <a href="{{ '/'  | relative_url }}">Home</a>
+  <a href="{{ '/about/'  | relative_url }}">About Me</a>
+  <a href="{{ '/research/'  | relative_url }}">Research</a>
+  <a href="{{ '/teaching-portfolio/'  | relative_url }}">Teaching</a>
+  <a href="{{ '/diversity/'  | relative_url }}">Diversity &amp; Inclusion</a>
 
-  <div class="dropdown">
-    <button class="dropbtn" onclick="toggleServicesDropdown()">Services ▼</button>
-    <div class="dropdown-content" id="servicesMenu">
-      <a href="{{ '/executive-coaching/' | relative_url }}">Executive Coaching</a>
-      <a href="{{ '/gender-coaching/' | relative_url }}">Gender Coaching</a>
-      <a href="{{ '/health-wellness-coaching/' | relative_url }}">Health &amp; Wellness Coaching</a>
-      <a href="{{ '/life-coaching/' | relative_url }}">Life Coaching</a>
-      <a href="{{ '/relationship-family-coaching/' | relative_url }}">Relationship &amp; Family Coaching</a>
+  <div class="dropdown" role="menu" aria-haspopup="true">
+    <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false">
+      Coaching ▼
+    </button>
+    <div class="dropdown-content" id="servicesMenu" role="menu">
+      <a role="menuitem" href="{{ '/executive-coaching/'             | relative_url }}">Executive Coaching</a>
+      <a role="menuitem" href="{{ '/life-coaching/'                  | relative_url }}">Life/Wellness Coaching</a>
+      <a role="menuitem" href="{{ '/gender-coaching/'                | relative_url }}">Gender &amp; Identity Coaching</a>
+      <a role="menuitem" href="{{ '/relationship-family-coaching/'   | relative_url }}">Family &amp; Relationships</a>
+      <hr>
+      <a role="menuitem" href="{{ '/rates-and-packages/'             | relative_url }}">Rates &amp; Packages</a>
     </div>
   </div>
 
-  <a href="{{ '/rates-and-packages/' | relative_url }}">Rates &amp; Packages</a>
   <a href="{{ '/contact/' | relative_url }}">Contact</a>
 </nav>
-
-<script>
-  // Toggle the Services dropdown
-  function toggleServicesDropdown() {
-    const menu = document.getElementById("servicesMenu");
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
-  }
-
-  // Close dropdown when clicking outside
-  document.addEventListener('click', function(e) {
-    const menu = document.getElementById("servicesMenu");
-    const btn  = document.querySelector('.dropbtn');
-    if (!btn.contains(e.target)) {
-      menu.style.display = 'none';
-    }
-  });
-</script>
