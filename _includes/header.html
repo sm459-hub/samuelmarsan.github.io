@@ -11,12 +11,12 @@
       Coaching ▼
     </button>
     <div class="dropdown-content" id="servicesMenu" role="menu">
-      <a role="menuitem" href="{{ '/executive-coaching/'             | relative_url }}">Executive Coaching</a>
-      <a role="menuitem" href="{{ '/life-coaching/'                  | relative_url }}">Life/Wellness Coaching</a>
-      <a role="menuitem" href="{{ '/gender-coaching/'                | relative_url }}">Gender &amp; Identity Coaching</a>
-      <a role="menuitem" href="{{ '/relationship-family-coaching/'   | relative_url }}">Family &amp; Relationships</a>
+      <a role="menuitem" href="{{ '/executive-coaching/'            | relative_url }}">Executive Coaching</a>
+      <a role="menuitem" href="{{ '/life-coaching/'                 | relative_url }}">Life/Wellness Coaching</a>
+      <a role="menuitem" href="{{ '/gender-coaching/'               | relative_url }}">Gender &amp; Identity Coaching</a>
+      <a role="menuitem" href="{{ '/relationship-family-coaching/'  | relative_url }}">Family &amp; Relationships</a>
       <hr>
-      <a role="menuitem" href="{{ '/rates-and-packages/'             | relative_url }}">Rates &amp; Packages</a>
+      <a role="menuitem" href="{{ '/rates-and-packages/'            | relative_url }}">Rates &amp; Packages</a>
     </div>
   </div>
 
@@ -27,8 +27,7 @@
   // Toggle the Coaching dropdown
   function toggleDropdown(id) {
     const menu = document.getElementById(id);
-    const expanded = menu.style.display === "block";
-    menu.style.display = expanded ? "none" : "block";
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
   }
   document.addEventListener('click', e => {
     const menu = document.getElementById("servicesMenu");
