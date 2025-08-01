@@ -1,3 +1,4 @@
+<!-- File: _includes/header.html -->
 <nav role="navigation" aria-label="Main site navigation">
   <a href="{{ '/'  | relative_url }}">Home</a>
   <a href="{{ '/about/'  | relative_url }}">About Me</a>
@@ -21,3 +22,16 @@
 
   <a href="{{ '/contact/' | relative_url }}">Contact</a>
 </nav>
+
+<script>
+  // Toggle the Coaching dropdown
+  function toggleDropdown(id) {
+    const menu = document.getElementById(id);
+    const expanded = menu.style.display === "block";
+    menu.style.display = expanded ? "none" : "block";
+  }
+  document.addEventListener('click', e => {
+    const menu = document.getElementById("servicesMenu");
+    if (!e.target.closest('.dropbtn')) menu.style.display = 'none';
+  });
+</script>
