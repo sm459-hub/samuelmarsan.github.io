@@ -32,5 +32,5 @@ Currently seeking faculty and leadership roles that leverage my dual expertise i
 
 ---
 
-[🔬 Publications on Google Scholar](https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en)  
+[🔬 Publications on Google Scholar](https://scholar.google.com/citations?hl=en&user=eGQIUA8AAAAJ) 
 [💼 Connect on LinkedIn](https://www.linkedin.com/in/samuel-marsán-pérez-m-a-87961597)
