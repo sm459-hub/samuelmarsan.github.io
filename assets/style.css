@@ -97,6 +97,7 @@ nav .dropbtn:hover {
     /* Move up so it sits above the fixed footer (instead of 40px from bottom) */
   bottom: 120px;
   /* Ensure it stacks on top of the footer (footer is z-index:1000) */
+  right: 30px;
   z-index: 1200;
   font-size: 1rem;
   border: none;
