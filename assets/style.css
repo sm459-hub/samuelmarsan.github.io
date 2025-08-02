@@ -199,9 +199,11 @@ summary:hover {
     font-size: 1.5rem;
   }
 
-  h3 {
+   h3 {
     font-size: 1.0rem;
   }
+} /* closes the @media (max-width: 600px) */
+
 /* Remove bullets/indentation from the home-page card list */
 .card-grid {
   list-style: none;    /* no bullets */
