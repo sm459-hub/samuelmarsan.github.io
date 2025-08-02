@@ -240,3 +240,7 @@ summary:hover {
 .button:hover {
   background-color: #003f63;            /* same hover effect */
 }
+/* Remove extra vertical margin on content-wrappers inside the card grid */
+.card-grid .content-wrapper {
+  margin: 0;  /* kill the 2rem vertical margin so row-gap alone defines spacing */
+}
