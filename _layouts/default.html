@@ -4,6 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }}</title>
+
+  <!-- Font Awesome (for social icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pOeq4KCIhFEqI1zYsM1uMUQ3N6S3y7R5QxRfYuUwY1v5sL7eJJe6jh0ccrUH1/OVRH6LhjChjOIJKSiqG8Pibg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
@@ -22,6 +32,9 @@
 
     <!-- Back to Top button & scroll script -->
     {% include footer.html %}
+
+    <!-- Social media footer -->
+    {% include social_links.html %}
   </div>
 </body>
 </html>
