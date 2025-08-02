@@ -312,3 +312,18 @@ nav .dropbtn:focus-visible {
   white-space: nowrap;
   border: 0;
 }
+/* Permanently fix the social footer to the bottom of the viewport */
+.social-footer {
+  position: fixed;     /* take it out of the document flow */
+  bottom: 0;           /* align to viewport bottom */
+  left: 0;             /* full-width across bottom */
+  width: 100%;
+  background: rgba(255,255,255,0.9); /* semi-opaque so bg shows through */
+  padding: 1rem 0;     /* vertical breathing room */
+  z-index: 1000;       /* above the background-layer */
+}
+
+/* Prevent page content from hiding behind the footer */
+.main-layer {
+  margin-bottom: 80px; /* adjust to footer’s height + padding */
+}
