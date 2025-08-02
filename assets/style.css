@@ -29,10 +29,20 @@ body {
 
 /* Navigation Bar */
 nav {
-  text-align: center;
-  padding: 1rem 0;
-  background: rgba(255, 255, 255, 0.9);
-  transition: background-color 0.3s ease;
+-  text-align: center;
+-  padding: 1rem 0;
+-  background: rgba(255, 255, 255, 0.9);
+-  transition: background-color 0.3s ease;
+-  position: relative;
+-  z-index: 10;
++  position: sticky;    /* stick to top on scroll */
++  top: 0;              /* zero offset from viewport top */
++  width: 100%;         /* full width */
++  z-index: 10;         /* over content */
++  text-align: center;
++  padding: 1rem 0;
++  background: rgba(255, 255, 255, 0.9);
++  transition: background-color 0.3s ease;
 }
 
 nav a {
