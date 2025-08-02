@@ -204,14 +204,15 @@ summary:hover {
   }
 } /* closes the @media (max-width: 600px) */
 
-/* Responsive two-column card grid */
+/* Responsive two-column card grid, constrained to 800px like .content-wrapper */
 .card-grid {
   display: grid;
-  grid-template-columns: 1fr;      /* 1-column by default */
-  gap: 1rem;                       /* space between cards */
-  list-style: none;                /* remove bullets */
-  margin: 0;                       /* reset UL margin */
-  padding: 0;                      /* reset UL padding */
+  grid-template-columns: 1fr;               /* single column by default */
+  gap: 1rem;                                /* space between cards */
+  list-style: none;                         /* remove bullets */
+  margin: 2rem auto;                        /* vertical spacing & center horizontally */
+  padding: 0;                               /* reset UL padding */
+  max-width: 800px;                         /* match .content-wrapper width */
 }
 
 /* On wider screens, switch to 2 columns */
