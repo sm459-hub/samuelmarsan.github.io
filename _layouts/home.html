@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <!-- Fixed background -->
+  <div class="background-layer"></div>
+
+  <!-- Site header/nav -->
+  {% include header.html %}
+
+  <!-- Scrollable main content -->
+  <div class="main-layer">
+
+    <!-- YOUR CONTENT GOES HERE (no .content-wrapper) -->
+    {{ content | markdownify }}
+
+    <!-- Back to Top & scripts -->
+    {% include footer.html %}
+  </div>
+</body>
+</html>
