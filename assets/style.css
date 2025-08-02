@@ -202,39 +202,3 @@ summary:hover {
   h3 {
     font-size: 1.0rem;
   }
-
-/* Home page card grid */
-.card-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card {
-  flex: 1 1 300px;              /* Grow/shrink, min-width 300px */
-  background: rgba(255,255,255,0.85);
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  box-sizing: border-box;
-}
-
-.button {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background-color: #005792;
-  color: #ffffff !important;
-  text-decoration: none !important;
-  border-radius: 16px;
-  font-family: "SF Pro Text", Helvetica, sans-serif;
-  font-size: 0.9rem;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #003f63;
-}
