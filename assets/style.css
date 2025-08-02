@@ -221,3 +221,22 @@ summary:hover {
     grid-template-columns: repeat(2, 1fr);  /* two equal columns */
   }
 }
+/* Card links styled like the #topBtn */
+.button {
+  display: inline-block;
+  background-color: #005792;            /* same blue */
+  color: #ffffff !important;            /* white text */
+  padding: 0.75rem 1rem;                /* same padding */
+  border: none;                         /* no border */
+  outline: none;                        /* no outline */
+  border-radius: 50px;                  /* pill shape */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* same shadow */
+  text-decoration: none !important;     /* remove underline */
+  font-size: 1rem;                      /* match topBtn font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #003f63;            /* same hover effect */
+}
