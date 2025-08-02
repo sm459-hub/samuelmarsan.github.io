@@ -1,276 +1,299 @@
-/* Background fixed layer for parallax effect */
+/* style.css - Annotated for clarity */
+
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Background fixed layer for parallax effect                                     */
+/* Creates a fullscreen fixed background image that stays put while content scrolls */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .background-layer {
-  background-image: url('/assets/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -2;
+  background-image: url('/assets/background.png'); /* Path to the background image */
+  background-size: cover;      /* Scale image to fill container without distortion */
+  background-position: center; /* Center the image in the viewport */
+  background-repeat: no-repeat;/* Prevent the image from repeating */
+  position: fixed;             /* Pin the background to the viewport */
+  top: 0;                      /* Align top edge */
+  left: 0;                     /* Align left edge */
+  width: 100vw;                /* Full viewport width */
+  height: 100vh;               /* Full viewport height */
+  z-index: -2;                 /* Sit behind all other elements */
 }
 
-/* Main scrolling content layer */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Main scrolling content layer                                                    */
+/* Wrap all page content so it scrolls over the fixed background                   */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .main-layer {
-  position: relative;
-  z-index: 1;
+  position: relative;          /* Establish new stacking context above background */
+  z-index: 1;                  /* Place content above the background layer */
 }
 
-/* Base Layout */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Base Layout                                                                     */
+/* Reset browser defaults and set typography basics                                 */
+/* ────────────────────────────────────────────────────────────────────────────── */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  color: #212529;
-  min-height: 100vh;
+  margin: 0;                   /* Remove default margin */
+  padding: 0;                  /* Remove default padding */
+  font-family: Arial, sans-serif; /* Fallback-friendly font stack */
+  color: #212529;              /* Default text color */
+  min-height: 100vh;           /* Ensure body covers full viewport height */
 }
 
-/* Navigation Bar */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Sticky Navigation Bar                                                          */
+/* Keeps the nav at the top while scrolling; centers links; semitransparent bg   */
+/* ────────────────────────────────────────────────────────────────────────────── */
 nav {
--  text-align: center;
--  padding: 1rem 0;
--  background: rgba(255, 255, 255, 0.9);
--  transition: background-color 0.3s ease;
--  position: relative;
--  z-index: 10;
-+  position: sticky;    /* stick to top on scroll */
-+  top: 0;              /* zero offset from viewport top */
-+  width: 100%;         /* full width */
-+  z-index: 10;         /* over content */
-+  text-align: center;
-+  padding: 1rem 0;
-+  background: rgba(255, 255, 255, 0.9);
-+  transition: background-color 0.3s ease;
+  position: fixed;             /* Pin nav at viewport top */
+  top: 0;                      /* Zero offset from top */
+  left: 0;                     /* Zero offset from left */
+  right: 0;                    /* Zero offset from right (full width) */
+  background: rgba(255, 255, 255, 0.9); /* Slightly see-through white */
+  padding: 1rem 0;             /* 1rem vertical space, no horizontal padding */
+  text-align: center;          /* Center inline children (links/buttons) */
+  z-index: 1000;               /* Sit above all other content */
+  transition: background-color 0.3s ease; /* Smooth fade on bg color change */
 }
 
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Navigation Links                                                                */
+/* Style for <a> tags inside nav                                                  */
+/* ────────────────────────────────────────────────────────────────────────────── */
 nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #005792;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  display: inline-block;       /* Allow margin & padding on links */
+  margin: 0 10px;              /* Horizontal spacing between links */
+  text-decoration: none;       /* Remove underline */
+  color: #005792;              /* Brand blue color */
+  font-weight: bold;           /* Bold text for emphasis */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
+/* Hover state for nav links                                                      */
 nav a:hover {
-  text-decoration: underline;
-  color: #003f63;
+  text-decoration: underline;  /* Underline to indicate interactivity */
+  color: #003f63;              /* Darker blue on hover */
 }
 
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Dropdown Menu                                                                  */
+/* Styles for dropbtn and dropdown-content for nav dropdowns                       */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .dropdown {
-  display: inline-block;
-  position: relative;
+  display: inline-block;       /* Inline context, but contains block dropdown */
+  position: relative;          /* Anchor for absolute-positioned dropdown */
 }
 
 .dropbtn {
-  background: none;
-  border: none;
-  color: #005792;
-  font-weight: bold;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0;
-  margin: 0 10px;
+  background: none;            /* Transparent background */
+  border: none;                /* Remove default button border */
+  color: #005792;              /* Match nav link color */
+  font-weight: bold;           /* Bold text */
+  font-size: 1rem;             /* Base font size */
+  cursor: pointer;             /* Pointer cursor on hover */
+  padding: 0;                  /* No padding so it aligns with links */
+  margin: 0 10px;              /* Match nav link spacing */
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.95);
-  min-width: 180px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-  z-index: 1000;
+  display: none;               /* Hidden by default; shown via JS */
+  position: absolute;          /* Position relative to dropdown parent */
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly opaque */
+  min-width: 180px;            /* Minimum width */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Light drop shadow */
+  z-index: 1000;               /* On top of other content */
 }
 
 .dropdown-content a {
-  color: #005792;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  color: #005792;              /* Same brand blue */
+  padding: 12px 16px;          /* Internal spacing */
+  text-decoration: none;       /* No underline */
+  display: block;              /* Full-width click area */
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1;   /* Light gray hover bg */
 }
 
-
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Back to Top Button                                                              */
+/* Hidden until scroll threshold, then shows as circular pill at bottom-right      */
+/* ────────────────────────────────────────────────────────────────────────────── */
 #topBtn {
-  display: none;
-  position: fixed;
-  bottom: 40px;
-  right: 30px;
-  z-index: 100;
-  font-size: 1rem;
-  border: none;
-  outline: none;
-  background-color: #005792;
-  color: white;
-  cursor: pointer;
-  padding: 0.75rem 1rem;
-  border-radius: 50px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: background-color 0.3s ease;
+  display: none;               /* Hidden by default */
+  position: fixed;             /* Fixed placement in viewport */
+  bottom: 40px;                /* 40px from bottom edge */
+  right: 30px;                 /* 30px from right edge */
+  z-index: 100;                /* Above most content */
+  font-size: 1rem;             /* Base font size */
+  border: none;                /* Remove default border */
+  outline: none;               /* Remove focus outline */
+  background-color: #005792;   /* Brand blue background */
+  color: white;                /* White text */
+  cursor: pointer;             /* Pointer cursor */
+  padding: 0.75rem 1rem;       /* Provide click area */
+  border-radius: 50px;         /* Circular ends */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* Subtle shadow */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
 #topBtn:hover {
-  background-color: #003f63;
+  background-color: #003f63;   /* Darker blue on hover */
 }
 
-nav {
-  position: relative;
-  z-index: 10;
-}
-
-/* Main Content Container */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Main Content Container                                                         */
+/* The .content-wrapper class wraps page content in a centered “card” style panel  */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .content-wrapper {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 12px;
-  box-sizing: border-box;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  max-width: 800px;            /* Prevent overly wide lines for readability */
+  margin: 2rem auto;           /* Center horizontally, add vertical spacing */
+  padding: 2rem;               /* Internal whitespace */
+  background: rgba(255, 255, 255, 0.85); /* White panel with slight transparency */
+  border-radius: 12px;         /* Rounded corners */
+  box-sizing: border-box;      /* Include padding in width/height calculations */
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
 
-/* Typography */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Typography                                                                      */
+/* Consistent heading colors and transitions                                      */
+/* ────────────────────────────────────────────────────────────────────────────── */
 h1, h2, h3 {
-  color: #005792;
-  transition: color 0.3s ease;
+  color: #005792;              /* Brand blue headings */
+  transition: color 0.3s ease; /* Smooth fade on interactive states */
 }
 
 a {
-  color: #007bff;
-  transition: color 0.3s ease;
+  color: #007bff;              /* Default hyperlink color */
+  transition: color 0.3s ease; /* Smooth color change */
 }
 
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Details & Summary                                                              */
+/* Styles for expandable/collapsible content blocks                               */
+/* ────────────────────────────────────────────────────────────────────────────── */
 details {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s ease;
+  background: #fff;            /* Solid white background */
+  border: 1px solid #ccc;      /* Light gray border */
+  border-radius: 6px;          /* Slight rounding */
+  padding: 1rem;               /* Internal spacing */
+  margin-bottom: 1rem;         /* Space below each block */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  transition: box-shadow 0.3s ease; /* Smooth shadow on interaction */
 }
 
 summary {
-  font-weight: bold;
-  cursor: pointer;
-  color: #005792;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
+  font-weight: bold;           /* Bold summary text */
+  cursor: pointer;             /* Pointer indicates clickable */
+  color: #005792;              /* Brand blue */
+  font-size: 1.1rem;           /* Slightly larger */
+  transition: color 0.3s ease; /* Smooth fade on hover */
 }
 
 summary:hover {
-  text-decoration: underline;
-  color: #003f63;
+  text-decoration: underline;  /* Underline on hover */
+  color: #003f63;              /* Darker blue on hover */
 }
 
-/* Circular Headshot Image */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Headshot (Profile Image)                                                        */
+/* Circular, centered image with hover scale effect                               */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .headshot {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 1rem auto;
-  display: block;
-  transition: transform 0.3s ease;
+  width: 200px;                /* Fixed width */
+  height: 200px;               /* Fixed height */
+  object-fit: cover;           /* Fit image without distortion */
+  border-radius: 50%;          /* Fully round */
+  margin: 1rem auto;           /* Center horizontally, vertical spacing */
+  display: block;              /* Block-level for margin auto to work */
+  transition: transform 0.3s ease; /* Smooth zoom on hover */
 }
 
 .headshot:hover {
-  transform: scale(1.05);
+  transform: scale(1.05);      /* Slight zoom effect */
 }
 
-/* Responsive Design */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Responsive Design                                                              */
+/* Mobile-first adjustments under 600px viewport width                             */
+/* ────────────────────────────────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .content-wrapper {
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    margin: 1rem;
-    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.95); /* Slightly more opaque for readability */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Deeper shadow */
+    margin: 1rem;               /* Reduced margins */
+    padding: 1.5rem;            /* Reduced padding */
   }
 
   nav {
-    font-size: 0.9rem;
-    padding: 0.75rem;
+    font-size: 0.9rem;          /* Smaller text size for nav */
+    padding: 0.75rem;           /* Smaller nav padding */
   }
 
   nav a {
-    display: inline-block;
-    margin: 6px 8px;
+    display: inline-block;      /* Ensure clickable area */
+    margin: 6px 8px;            /* Tighter spacing */
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2rem;            /* Smaller heading */
   }
 
   h2 {
     font-size: 1.5rem;
   }
 
-   h3 {
+  h3 {
     font-size: 1.0rem;
   }
 } /* closes the @media (max-width: 600px) */
 
-/* Responsive two-column card grid, constrained to 800px like .content-wrapper */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Responsive two-column card grid                                                */
+/* Constrains the grid to 800px and switches to two columns on wider screens      */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .card-grid {
-  display: grid;
-  grid-template-columns: 1fr;               /* single column by default */
-  gap: 1rem;                                /* space between cards */
-  list-style: none;                         /* remove bullets */
-  margin: 2rem auto;                        /* vertical spacing & center horizontally */
-  padding: 0;                               /* reset UL padding */
-  max-width: 800px;                         /* match .content-wrapper width */
+  display: grid;               /* Use CSS Grid */
+  grid-template-columns: 1fr;  /* One column by default */
+  gap: 1rem;                   /* Equal spacing row & column */
+  list-style: none;            /* Remove list bullets */
+  margin: 2rem auto;           /* Center grid, vertical spacing */
+  padding: 0;                  /* Reset list padding */
+  max-width: 800px;            /* Match content-wrapper width */
 }
 
-/* On wider screens, switch to 2 columns */
 @media (min-width: 800px) {
   .card-grid {
-    grid-template-columns: repeat(2, 1fr);  /* two equal columns */
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
   }
 }
-/* Card links styled like the #topBtn */
+
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Button styling for .button class                                               */
+/* Matches the appearance of the #topBtn, used for card links                     */
+/* ────────────────────────────────────────────────────────────────────────────── */
 .button {
-  display: inline-block;
-  background-color: #005792;            /* same blue */
-  color: #ffffff !important;            /* white text */
-  padding: 0.75rem 1rem;                /* same padding */
-  border: none;                         /* no border */
-  outline: none;                        /* no outline */
-  border-radius: 50px;                  /* pill shape */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* same shadow */
-  text-decoration: none !important;     /* remove underline */
-  font-size: 1rem;                      /* match topBtn font size */
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  display: inline-block;       /* Allow margin & padding */
+  background-color: #005792;   /* Brand blue */
+  color: #ffffff !important;   /* White text */
+  padding: 0.75rem 1rem;       /* Vertical & horizontal padding */
+  border: none;                /* No default border */
+  outline: none;               /* Remove focus outline */
+  border-radius: 50px;         /* Pill shape */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* Subtle shadow */
+  text-decoration: none !important;     /* No underline */
+  font-size: 1rem;             /* Base font size */
+  cursor: pointer;             /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
 .button:hover {
-  background-color: #003f63;            /* same hover effect */
-}
-/* Remove extra vertical margin on content-wrappers inside the card grid */
-.card-grid .content-wrapper {
-  margin: 0;  /* kill the 2rem vertical margin so row-gap alone defines spacing */
-}
-/* —————————————————————————————— */
-/* Fixed, centered nav across the top */
-/* —————————————————————————————— */
-nav {
-  position: fixed;                 /* stick to top */
-  top: 0;
-  left: 0;
-  right: 0;                        /* span full width */
-  background: rgba(255, 255, 255, 0.9);
-  padding: 1rem 0;                 /* vertical breathing room */
-  text-align: center;              /* center the inline links */
-  z-index: 1000;                   /* above all content */
-  transition: background-color 0.3s ease;
+  background-color: #003f63;   /* Darker blue on hover */
 }
 
-nav a,
-nav .dropbtn {
-  display: inline-block;           /* ensure they respect text-align */
-  margin: 0 10px;                  /* horizontal spacing */
+/* ────────────────────────────────────────────────────────────────────────────── */
+/* Override: remove extra margins within card grid wrappers                                 */
+/* Ensures 'gap' property handles all spacing between cards                             */
+/* ────────────────────────────────────────────────────────────────────────────── */
+.card-grid .content-wrapper {
+  margin: 0;                   /* Override the 2rem auto margin */
 }
