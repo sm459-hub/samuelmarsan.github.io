@@ -202,3 +202,9 @@ summary:hover {
   h3 {
     font-size: 1.0rem;
   }
+/* Remove bullets/indentation from the home-page card list */
+.card-grid {
+  list-style: none;    /* no bullets */
+  margin: 0;           /* remove default UL margins */
+  padding: 0;          /* remove default UL padding */
+}
