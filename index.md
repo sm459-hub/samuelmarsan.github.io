@@ -1,32 +1,47 @@
 ---
 layout: default
-title: Samuel Marsán Pérez, M.A.
+title: Welcome
+permalink: /
 ---
 
-I am a bilingual (English-Spanish) master's level clinical psychology professional with specialized training in transgender health, autism spectrum disorders, eating disorders, and multicultural mental health. With degrees from Duke University (M.A.), University of Texas (Predoctoral Clinical Psychology Internship), UNC Chapel Hill (B.S.), and Miami Dade College-Honors College Dual Languange Program (A.A.), I bring experience in research, psychotherapy, and advocacy across diverse cultural and geographical communities.
+# Welcome
 
-Currently open to clinical, research, and community-based roles that align with my expertise in clinical resaerch, evidence-based practice, and inclusive care.
+This is your one-stop hub for everything in my professional portfolio. Click any section below to dive deeper.
 
-[View Full CV](/cv/)
+<ul class="card-grid" role="list">
+  <li class="card" role="region" aria-labelledby="card-about">
+    <h3 id="card-about">About Me</h3>
+    <p>Learn who I am—my education, credentials, and clinical & coaching philosophy.</p>
+    <a href="/about/" class="button">Go to About Me</a>
+  </li>
 
-[Publications](https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en)
+  <li class="card" role="region" aria-labelledby="card-research">
+    <h3 id="card-research">Research</h3>
+    <p>See my publications, ongoing projects, and grants in clinical psychology.</p>
+    <a href="/research/" class="button">Go to Research</a>
+  </li>
 
-<style>
-.libutton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 7px;
-  text-align: center;
-  outline: none;
-  text-decoration: none !important;
-  color: #ffffff !important;
-  width: 200px;
-  height: 32px;
-  border-radius: 16px;
-  background-color: #0A66C2;
-  font-family: "SF Pro Text", Helvetica, sans-serif;
-}
-</style>
+  <li class="card" role="region" aria-labelledby="card-teaching">
+    <h3 id="card-teaching">Teaching</h3>
+    <p>Explore my full teaching portfolio: statement, effectiveness data, and artifacts.</p>
+    <a href="/teaching-portfolio/" class="button">Go to Teaching</a>
+  </li>
 
-<a class="libutton" href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=samuel-marsán-pérez-m-a-87961597" target="_blank">Follow on LinkedIn</a>
+  <li class="card" role="region" aria-labelledby="card-diversity">
+    <h3 id="card-diversity">Diversity &amp; Inclusion</h3>
+    <p>Read my diversity statement, inclusive practices, and related artifact.</p>
+    <a href="/diversity/" class="button">Go to Diversity</a>
+  </li>
+
+  <li class="card" role="region" aria-labelledby="card-coaching">
+    <h3 id="card-coaching">Coaching Services</h3>
+    <p>Review packages, rates, FAQs, and schedule your free discovery call.</p>
+    <a href="/rates-and-packages/" class="button">Go to Coaching</a>
+  </li>
+
+  <li class="card" role="region" aria-labelledby="card-contact">
+    <h3 id="card-contact">Contact</h3>
+    <p>Send an inquiry via form or email, or book a chat to get started.</p>
+    <a href="/contact/" class="button">Go to Contact</a>
+  </li>
+</ul>
