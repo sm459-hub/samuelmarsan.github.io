@@ -254,3 +254,22 @@ summary:hover {
 .card-grid .content-wrapper {
   margin: 0;  /* kill the 2rem vertical margin so row-gap alone defines spacing */
 }
+/* —————————————————————————————— */
+/* Make the nav permanently fixed at top */
+/* —————————————————————————————— */
+
+nav {
+  position: fixed;       /* stick at top of viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255,255,255,0.9);
+  z-index: 1000;         /* above everything */
+}
+
+/* Push the main content below the fixed nav */
+.main-layer {
+  /* Adjust this value to match your nav’s total height */
+  /* If nav height is ~64px (1rem top+bottom padding + line-height), use 64px */
+  margin-top: 64px;      
+}
