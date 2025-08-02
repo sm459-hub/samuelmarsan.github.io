@@ -4,7 +4,7 @@ title: Welcome
 permalink: /
 ---
 
-This is your one-stop hub for my professional portfolio. Click to explore each section:
+# This is your one-stop hub for my professional portfolio. Click to explore each section:
 
 <ul class="card-grid" role="list">
   <li role="region" aria-labelledby="card-about">
