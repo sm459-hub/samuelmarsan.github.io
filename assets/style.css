@@ -204,9 +204,19 @@ summary:hover {
   }
 } /* closes the @media (max-width: 600px) */
 
-/* Remove bullets/indentation from the home-page card list */
+/* Responsive two-column card grid */
 .card-grid {
-  list-style: none;    /* no bullets */
-  margin: 0;           /* remove default UL margins */
-  padding: 0;          /* remove default UL padding */
+  display: grid;
+  grid-template-columns: 1fr;      /* 1-column by default */
+  gap: 1rem;                       /* space between cards */
+  list-style: none;                /* remove bullets */
+  margin: 0;                       /* reset UL margin */
+  padding: 0;                      /* reset UL padding */
+}
+
+/* On wider screens, switch to 2 columns */
+@media (min-width: 800px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);  /* two equal columns */
+  }
 }
