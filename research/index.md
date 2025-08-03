@@ -4,24 +4,17 @@ title: Research
 permalink: /research/
 ---
 
-## Research Overview
+# Research
 
-I am currently a Research Associate at UNC Chapel Hill, focusing on:
+Explore my ongoing and past research areas below. You can also view full details in my [Curriculum Vitae]({{ '/cv#research' | relative_url }}).
 
-- **Neurodiversity & Executive Function**  
-- **Intervention Development**  
-- **Health Equity & Access**
+## Featured Work
 
-### Publications  
-- Marsán, S. Pérez et al. *(2024)*. Title, Journal.  
-- Marsán, S. Pérez et al. *(2023)*. Title, Journal.  
+- [See Research section in my CV]({{ '/cv#research' | relative_url }})
+- [See Publications section in my CV]({{ '/cv#publications' | relative_url }})
 
-### Projects & Grants  
-- Project A: Description…  
-- Grant B: Funding body, aims…
+## Google Scholar
 
-### Presentations & Collaborators  
-- “Talk Title” at Conference, Year  
-- Collaborators: Dr. X, Dr. Y
-
-[View full list of publications and grants in my CV](/cv/)
+<a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+  <img src="{{ '/assets/icons/google-scholar.svg' | relative_url }}" alt="Google Scholar Profile" class="social-icon" style="height: 32px;" />
+</a>
