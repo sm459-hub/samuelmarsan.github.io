@@ -17,6 +17,12 @@ jobs:
         with:
           ruby-version: 3.1
 
+      - name: Remove Bundler cache
+        run: |
+          rm -rf vendor/cache
+          rm -rf ~/.bundle
+          rm -rf .bundle
+
       - name: Install dependencies
         run: |
           gem install bundler
