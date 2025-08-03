@@ -6,3 +6,4 @@ markdown: kramdown
 theme: null
 plugins: []
 exclude: ["README.md"]
+google_scholar_id: eGQIUA8AAAAJ
