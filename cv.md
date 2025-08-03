@@ -222,7 +222,7 @@ Supervisors: Ron Batson, M.D. and David Rabiner, Ph.D.
 three webinars)
 
 - Introduction to pediatric pharmacology (one didactic seminar) Spring 2020
-
+<a id="research"></a>
 # Research Experience
 
 **Duke Population Science**, Durham, NC 2018-present
@@ -362,7 +362,7 @@ Director: Charlotte Boettiger, Ph.D.
 - Conducted quantitative data analysis
 - Completed an independent study \[Unpublished\] examining the effects of depressive mood states on attentional bias toward alcohol cues in persons who drink moderately
 - Co-authored a peer-reviewed manuscript comparing levels of alcohol consumption on attentional bias toward alcohol cues
-
+<a id="publications"></a>
 # Publications
 
 ## Peer-Reviewed Journal Publications
