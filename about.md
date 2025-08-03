@@ -9,23 +9,31 @@ permalink: /about/
      class="headshot" />
 
 ## Samuel Marsán Pérez, M.A.  
-**Bilingual (English–Spanish) Master’s-level Clinical Psychology Professional & Certified Life Coach**
+**Bilingual (English–Spanish) Life Coach with Clinical Psychology Training—_A_ll _B_ut _D_issertation (ABD)**
 
-I help individuals, couples, and families navigate life transitions, overcome limiting beliefs, and build sustainable wellness through an integrated approach of psychotherapy and coaching. With specialized training in:
+I help individuals, couples, families, and groups navigate life transitions, overcome limiting beliefs, and build sustainable wellness through an integrated approach of coaching informed by Cognitive Behavioral Therapies (CBTs), including Acceptancea and Committment Therapy (ACT). With specialized training in:
 
-- Transgender Health & Identity  
-- Autism Spectrum Disorders  
-- Eating Disorders & Body Image  
-- Multicultural Mental Health & Advocacy  
+- Academic Coaching (e.g., learning how to learn)
+- Executive Coaching (e.g., corporate)
+- Life/Wellness (e.g., stress, balance)
+- Executive Functioning (e.g., attention, time management)
+- Transitional Periods (e.g., adolescence to adulthood)
+- Family/Relationships (e.g., caregiving, significant others)
+- Coping with Illness (e.g., adherence to health plans)
+- Substance Use and Recovery (e.g., moderation, abstinence)
+- Gender and Identity (e.g., in and outside the spectrum)
+- Coaching for Men (e.g., self-defined masculinity)
+- Coaching for Women (e.g., self-defined femininity)
+- Body Image (e.g., teens, young adults, adults)
 
 I earned degrees from:
 
-- **Duke University** (M.A. in Clinical Psychology)  
-- **University of Texas** (Predoctoral Clinical Psychology Internship)  
-- **UNC Chapel Hill** (B.S. in Psychology)  
+- **Duke University** (M.A. in Clinical Psychology, ABD)  
+- **University of Texas Health Houston** (Predoctoral Clinical Psychology Internship)  
+- **University of North Carolina Chapel Hill** (B.S. in Psychology)  
 - **Miami Dade College – Honors College Dual Language Program** (A.A. in English–Spanish)
 
-I bring experience in research, psychotherapy, and advocacy across diverse cultural and geographical communities. I’m currently open to **clinical**, **research**, and **community-based** roles that align with my expertise in clinical research, evidence-based practice, and inclusive care.
+I bring experience in research, practice, and advocacy across diverse cultural and geographical communities. I’m currently open to **trainer**, **research**, **practice**, and **community-based** roles that align with my expertise in clinical research, evidence-based practice, and inclusive care.
 
 ---
 
