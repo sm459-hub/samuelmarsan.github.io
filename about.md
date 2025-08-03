@@ -4,33 +4,69 @@ title: About Me
 permalink: /about/
 ---
 
-<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Samuel Marsan headshot" class="headshot" />
+<img src="{{ '/assets/headshot.jpg' | relative_url }}"
+     alt="Headshot of Samuel Marsán Pérez"
+     class="headshot" />
 
 ## Samuel Marsán Pérez, M.A.  
-**Institutional Affiliation:** Duke University, Department of Psychology and Neuroscience
+**Bilingual (English–Spanish) Master’s-level Clinical Psychology Professional & Certified Life Coach**
 
-I am a bilingual (English–Spanish) life coach with clinical psychology training and a passion for culturally responsive mental health services across the lifespan. My work spans research, teaching, and coaching, engaging diverse communities in the U.S. and Latin America.
+I help individuals, couples, and families navigate life transitions, overcome limiting beliefs, and build sustainable wellness through an integrated approach of psychotherapy and coaching. With specialized training in:
 
-### Interests  
-- Health equity & access for historically underserved groups  
-- Gender-affirming support for adolescents & young adults  
-- Measurement development in psychological assessment  
-- Culturally attuned pscychosocial support
+- Transgender Health & Identity  
+- Autism Spectrum Disorders  
+- Eating Disorders & Body Image  
+- Multicultural Mental Health & Advocacy  
 
-### Roles & Goals  
-Currently seeking faculty and leadership roles that leverage my experience in **teaching**, **research** and **practice**, while continuing to support clients as a life coach.
+I earned degrees from:
 
----
+- **Duke University** (M.A. in Clinical Psychology)  
+- **University of Texas** (Predoctoral Clinical Psychology Internship)  
+- **UNC Chapel Hill** (B.S. in Psychology)  
+- **Miami Dade College – Honors College Dual Language Program** (A.A. in English–Spanish)
 
-## 📄 Download My CV  
-<a href="/assets/Samuel_Marsan_CV_2025.pdf"
-   target="_blank"
-   rel="noopener"
-   aria-label="Download CV (PDF)">
-  Download my full CV (PDF)
-</a>
+I bring experience in research, psychotherapy, and advocacy across diverse cultural and geographical communities. I’m currently open to **clinical**, **research**, and **community-based** roles that align with my expertise in clinical research, evidence-based practice, and inclusive care.
 
 ---
 
-[🔬 Publications on Google Scholar](https://scholar.google.com/citations?hl=en&user=eGQIUA8AAAAJ) 
-[💼 Connect on LinkedIn](https://www.linkedin.com/in/samuel-marsán-pérez-m-a-87961597)
+### Areas of Expertise
+
+- Executive Functioning & ADHD  
+- Life Transitions & Personal Growth  
+- Healthful Habit-Formation & Wellness  
+- Relationship & Family Dynamics  
+
+---
+
+### Quick Links
+
+<ul class="quick-links">
+  <li>
+    <a href="https://scholar.google.com/citations?hl=en&user=eGQIUA8AAAAJ"
+       target="_blank" rel="noopener">
+      <!-- Google Scholar SVG icon -->
+      <img
+        src="{{ '/assets/icons/google-scholar.svg' | relative_url }}"
+        alt=""
+        class="quick-link-icon" />
+      Publications on Google Scholar
+    </a>
+  </li>
+  <li>
+    📄 <a href="/assets/Samuel_Marsan_CV_2025.pdf"
+          target="_blank" rel="noopener">
+      Download Full CV
+    </a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/samuel-mars%C3%A1n-p%C3%A9rez-m-a-87961597"
+       target="_blank" rel="noopener">
+      <!-- LinkedIn PNG icon -->
+      <img
+        src="{{ '/assets/icons/LinkedIn.png' | relative_url }}"
+        alt=""
+        class="quick-link-icon" />
+      Connect on LinkedIn
+    </a>
+  </li>
+</ul>
