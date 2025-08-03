@@ -7,3 +7,9 @@ theme: null
 plugins: []
 exclude: ["README.md"]
 google_scholar_id: eGQIUA8AAAAJ
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # no need to declare custom plugins like scholar_stats.rb
