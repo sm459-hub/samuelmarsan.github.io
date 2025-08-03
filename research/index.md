@@ -37,4 +37,3 @@ The following peer-reviewed publications and presentations include my contributi
 
 ## Live Google Scholar Feed
 {% scholar_profile %}
-<iframe src="https://gsprofile.netlify.app/embed/eGQIUA8AAAAJ" width="100%" height="600" style="border:none;" loading="lazy" title="Google Scholar Publications"></iframe>
