@@ -376,3 +376,22 @@ nav .dropbtn:focus-visible {
 @media (max-width: 600px) {
   .main-layer { margin-top: 56px; margin-bottom: 72px; }
 }
+/* ───────────────────────────────────────────────────────────── */
+/* Quick Links (About Me) — reset list & icon sizing           */
+/* ───────────────────────────────────────────────────────────── */
+.quick-links {
+  list-style: none;         /* remove bullets */
+  padding: 0;               /* reset padding */
+  margin: 0 0 2rem 0;       /* bottom spacing */
+}
+
+.quick-links li {
+  margin-bottom: 0.75rem;   /* space between items */
+}
+
+.quick-link-icon {
+  width: 1.2em;             /* size relative to text */
+  height: 1.2em;            /* keep square */
+  vertical-align: middle;   /* align with text baseline */
+  margin-right: 0.4em;      /* gap between icon & text */
+}
