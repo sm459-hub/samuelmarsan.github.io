@@ -3,7 +3,7 @@ layout: default
 title: Research
 permalink: /research/
 ---
-
+{% debug_check %}
 # Research
 
 My research explores how gender identity, embodiment, and sociocultural factors shape psychological well-being, particularly in LGBTQ+ youth. Drawing on clinical psychology, developmental science, and community-engaged methodologies, I focus on body image, resilience, and measurement design. My goal is to support affirming interventions through evidence-based insights and inclusive instruments.
