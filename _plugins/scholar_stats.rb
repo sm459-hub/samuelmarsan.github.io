@@ -3,6 +3,7 @@ require 'nokogiri'
 
 module Jekyll
   class ScholarProfileTag < Liquid::Tag
+    puts "[DEBUG] ✅ Loaded scholar_stats plugin"
     def render(context)
       user_id = context.registers[:site].config['google_scholar_id']
       profile_url = "https://scholar.google.com/citations?user=#{user_id}&hl=en"

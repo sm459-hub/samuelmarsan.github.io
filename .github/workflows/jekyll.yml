@@ -28,8 +28,10 @@ jobs:
           gem install bundler
           bundle install
 
-      - name: Build site with custom plugins
+      - name: Build site with custom plugins (safe mode OFF)
         run: bundle exec jekyll build --trace --verbose
+        env:
+          JEKYLL_ENV: development
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
