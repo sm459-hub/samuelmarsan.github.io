@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+
+  <!-- Font Awesome (for social icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pOeq4KCIhFEqI1zYsM1uMUQ3N6S3y7R5QxRfYuUwY1v5sL7eJJe6jh0ccrUH1/OVRH6LhjChjOIJKSiqG8Pibg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <!-- Fixed background layer -->
+  <div class="background-layer"></div>
+
+  <!-- Site header/nav -->
+  <!-- File: _includes/header.html -->
+<nav role="navigation" aria-label="Main site navigation">
+  <a href="/">Home</a>
+  <a href="/about/">About Me</a>
+  <a href="/research/">Research</a>
+  <a href="/teaching-portfolio/">Teaching</a>
+  <a href="/diversity/">Diversity &amp; Inclusion</a>
+
+  <div class="dropdown" role="menu" aria-haspopup="true">
+    <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false">
+      Coaching ▼
+    </button>
+    <div class="dropdown-content" id="servicesMenu" role="menu">
+      <a role="menuitem" href="/executive-coaching/">Executive Coaching</a>
+      <a role="menuitem" href="/life-coaching/">Life/Wellness Coaching</a>
+      <a role="menuitem" href="/gender-coaching/">Gender &amp; Identity Coaching</a>
+      <a role="menuitem" href="/relationship-family-coaching/">Family &amp; Relationships</a>
+      <hr>
+      <a role="menuitem" href="/rates-and-packages/">Rates &amp; Packages</a>
+    </div>
+  </div>
+
+  <a href="/contact/">Contact</a>
+</nav>
+
+<script>
+  // Toggle the Coaching dropdown
+  function toggleDropdown(id) {
+    const menu = document.getElementById(id);
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+  document.addEventListener('click', e => {
+    const menu = document.getElementById("servicesMenu");
+    if (!e.target.closest('.dropbtn')) menu.style.display = 'none';
+  });
+</script>
+
+
+  <!-- Scrollable main content -->
+  <div class="main-layer">
+    <div class="content-wrapper">
+      <h1>About Me</h1>
+      <p><img src="/assets/headshot.jpg" alt="Headshot of Samuel Marsán Pérez" class="headshot" /></p>
+
+<h2 id="samuel-marsán-pérez-ma">Samuel Marsán Pérez, M.A.</h2>
+<p><strong>Bilingual (English–Spanish) Life Coach with Clinical Psychology Training—All But Dissertation (ABD)</strong></p>
+
+<p>I help individuals, couples, families, and groups navigate life transitions, overcome limiting beliefs, and build sustainable wellness through an integrated approach of coaching informed by Cognitive Behavioral Therapies (CBTs), including Acceptancea and Committment Therapy (ACT). With specialized training in:</p>
+
+<ul>
+  <li>Academic Coaching (e.g., learning how to learn)</li>
+  <li>Executive Coaching (e.g., corporate)</li>
+  <li>Life/Wellness (e.g., stress, balance)</li>
+  <li>Executive Functioning (e.g., attention, time management)</li>
+  <li>Transitional Periods (e.g., adolescence to adulthood)</li>
+  <li>Family/Relationships (e.g., caregiving, significant others)</li>
+  <li>Coping with Illness (e.g., adherence to health plans)</li>
+  <li>Substance Use and Recovery (e.g., moderation, abstinence)</li>
+  <li>Gender and Identity (e.g., in and outside the spectrum)</li>
+  <li>Coaching for Men (e.g., self-defined masculinity)</li>
+  <li>Coaching for Women (e.g., self-defined femininity)</li>
+  <li>Body Image (e.g., teens, young adults, adults)</li>
+</ul>
+
+<p>I earned degrees from:</p>
+
+<ul>
+  <li><strong>Duke University</strong> (M.A. in Clinical Psychology, ABD)</li>
+  <li><strong>University of Texas Health Houston</strong> (Predoctoral Clinical Psychology Internship)</li>
+  <li><strong>University of North Carolina Chapel Hill</strong> (B.S. in Psychology)</li>
+  <li><strong>Miami Dade College – Honors College Dual Language Program</strong> (A.A. in English–Spanish)</li>
+</ul>
+
+<p>I bring experience in research, practice, and advocacy across diverse cultural and geographical communities. I’m currently open to <strong>trainer</strong>, <strong>research</strong>, <strong>practice</strong>, and <strong>community-based</strong> roles that align with my expertise in clinical research, evidence-based practice, and inclusive care.</p>
+
+<hr />
+
+<h3 id="areas-of-expertise">Areas of Expertise</h3>
+
+<ul>
+  <li>Executive Functioning &amp; ADHD</li>
+  <li>Life Transitions &amp; Personal Growth</li>
+  <li>Healthful Habit-Formation &amp; Wellness</li>
+  <li>Relationship &amp; Family Dynamics</li>
+</ul>
+
+<hr />
+
+<h3 id="quick-links">Quick Links</h3>
+
+<ul class="quick-links">
+  <li>
+    <a href="https://scholar.google.com/citations?hl=en&amp;user=eGQIUA8AAAAJ" target="_blank" rel="noopener">
+      <!-- Google Scholar SVG icon -->
+      <img src="/assets/icons/google-scholar.svg" alt="" class="quick-link-icon" />
+      Publications on Google Scholar
+    </a>
+  </li>
+  <li>
+    📄 <a href="/assets/Samuel_Marsan_CV_2025.pdf" target="_blank" rel="noopener">
+      Download Full CV
+    </a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/samuel-mars%C3%A1n-p%C3%A9rez-m-a-87961597" target="_blank" rel="noopener">
+      <!-- LinkedIn PNG icon -->
+      <img src="/assets/icons/LinkedIn.png" alt="" class="quick-link-icon" />
+      Connect on LinkedIn
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <!-- Back to Top button & scroll script -->
+    <button onclick="scrollToTop()" id="topBtn" title="Back to Top">↑ Top</button>
+
+<script>
+  // Show/hide the Back to Top button
+  window.addEventListener('scroll', function () {
+    const btn = document.getElementById("topBtn");
+    if (window.scrollY > 400) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  // Smooth scroll to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+
+    <!-- Social media footer -->
+    <!-- _includes/social_links.html -->
+<footer class="social-footer" role="contentinfo" aria-label="Social media links">
+  <div class="social-icons">
+    <!-- Google Scholar SVG -->
+    <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ"
+       target="_blank" rel="noopener" aria-label="Google Scholar">
+      <img src="/assets/icons/google-scholar.svg"
+           alt="Google Scholar"
+           class="social-icon svg-icon" />
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/your-profile"
+       target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/your_handle"
+       target="_blank" rel="noopener" aria-label="Instagram">
+      <i class="fab fa-instagram social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/your_profile"
+       target="_blank" rel="noopener" aria-label="Facebook">
+      <i class="fab fa-facebook social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Discord -->
+    <a href="https://discord.gg/your_invite"
+       target="_blank" rel="noopener" aria-label="Discord">
+      <i class="fab fa-discord social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@your_handle"
+       target="_blank" rel="noopener" aria-label="TikTok">
+      <i class="fab fa-tiktok social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- X (Twitter) -->
+    <a href="https://twitter.com/your_handle"
+       target="_blank" rel="noopener" aria-label="X">
+      <i class="fab fa-twitter social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- ResearchGate -->
+    <a href="https://www.researchgate.net/profile/YourName"
+       target="_blank" rel="noopener" aria-label="ResearchGate">
+      <i class="fab fa-researchgate social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Psychology Today PNG -->
+    <a href="https://www.psychologytoday.com/profile/your-profile"
+       target="_blank" rel="noopener" aria-label="Psychology Today">
+      <img src="/assets/icons/psychology-today.png"
+           alt="Psychology Today"
+           class="social-icon" />
+    </a>
+  </div>
+
+  <!-- Follow on LinkedIn Button -->
+<a href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+   target="_blank"
+   rel="noopener"
+   aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+  <img src="/assets/icons/LinkedIn.png"
+       alt="Follow on LinkedIn"
+       class="social-icon" />
+<!-- </a>
+  <a class="libutton"
+     href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+     target="_blank" rel="noopener" aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+    Follow on LinkedIn
+  </a> --> 
+</footer>
+
+  </div>
+    <!-- _includes/social_links.html -->
+<footer class="social-footer" role="contentinfo" aria-label="Social media links">
+  <div class="social-icons">
+    <!-- Google Scholar SVG -->
+    <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ"
+       target="_blank" rel="noopener" aria-label="Google Scholar">
+      <img src="/assets/icons/google-scholar.svg"
+           alt="Google Scholar"
+           class="social-icon svg-icon" />
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/your-profile"
+       target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/your_handle"
+       target="_blank" rel="noopener" aria-label="Instagram">
+      <i class="fab fa-instagram social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/your_profile"
+       target="_blank" rel="noopener" aria-label="Facebook">
+      <i class="fab fa-facebook social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Discord -->
+    <a href="https://discord.gg/your_invite"
+       target="_blank" rel="noopener" aria-label="Discord">
+      <i class="fab fa-discord social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@your_handle"
+       target="_blank" rel="noopener" aria-label="TikTok">
+      <i class="fab fa-tiktok social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- X (Twitter) -->
+    <a href="https://twitter.com/your_handle"
+       target="_blank" rel="noopener" aria-label="X">
+      <i class="fab fa-twitter social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- ResearchGate -->
+    <a href="https://www.researchgate.net/profile/YourName"
+       target="_blank" rel="noopener" aria-label="ResearchGate">
+      <i class="fab fa-researchgate social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Psychology Today PNG -->
+    <a href="https://www.psychologytoday.com/profile/your-profile"
+       target="_blank" rel="noopener" aria-label="Psychology Today">
+      <img src="/assets/icons/psychology-today.png"
+           alt="Psychology Today"
+           class="social-icon" />
+    </a>
+  </div>
+
+  <!-- Follow on LinkedIn Button -->
+<a href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+   target="_blank"
+   rel="noopener"
+   aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+  <img src="/assets/icons/LinkedIn.png"
+       alt="Follow on LinkedIn"
+       class="social-icon" />
+<!-- </a>
+  <a class="libutton"
+     href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+     target="_blank" rel="noopener" aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+    Follow on LinkedIn
+  </a> --> 
+</footer>
+
+</body>
+</html>

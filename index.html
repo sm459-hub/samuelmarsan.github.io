@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome</title>
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <!-- Font Awesome - includes brands -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pOeq4KCIhFEqI1zYsM1uMUQ3N6S3y7R5QxRfYuUwY1v5sL7eJJe6jh0ccrUH1/OVRH6LhjChjOIJKSiqG8Pibg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <!-- Fixed background -->
+  <div class="background-layer"></div>
+
+  <!-- Site header/nav -->
+  <!-- File: _includes/header.html -->
+<nav role="navigation" aria-label="Main site navigation">
+  <a href="/">Home</a>
+  <a href="/about/">About Me</a>
+  <a href="/research/">Research</a>
+  <a href="/teaching-portfolio/">Teaching</a>
+  <a href="/diversity/">Diversity &amp; Inclusion</a>
+
+  <div class="dropdown" role="menu" aria-haspopup="true">
+    <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false">
+      Coaching ▼
+    </button>
+    <div class="dropdown-content" id="servicesMenu" role="menu">
+      <a role="menuitem" href="/executive-coaching/">Executive Coaching</a>
+      <a role="menuitem" href="/life-coaching/">Life/Wellness Coaching</a>
+      <a role="menuitem" href="/gender-coaching/">Gender &amp; Identity Coaching</a>
+      <a role="menuitem" href="/relationship-family-coaching/">Family &amp; Relationships</a>
+      <hr>
+      <a role="menuitem" href="/rates-and-packages/">Rates &amp; Packages</a>
+    </div>
+  </div>
+
+  <a href="/contact/">Contact</a>
+</nav>
+
+<script>
+  // Toggle the Coaching dropdown
+  function toggleDropdown(id) {
+    const menu = document.getElementById(id);
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+  document.addEventListener('click', e => {
+    const menu = document.getElementById("servicesMenu");
+    if (!e.target.closest('.dropbtn')) menu.style.display = 'none';
+  });
+</script>
+
+
+  <!-- Scrollable main content -->
+  <div class="main-layer">
+    <!-- Wrap the intro in .content-wrapper to get the opaque panel style -->
+<div class="content-wrapper">
+  <h1>Welcome</h1>
+  <p>This is your one-stop hub for my professional portfolio. Click to explore each section:</p>
+</div>
+
+<!-- Your card grid -->
+<ul class="card-grid" role="list">
+  <li role="region" aria-labelledby="card-about">
+    <div class="content-wrapper">
+      <h3 id="card-about">About Me</h3>
+      <p>Learn who I am—my education, credentials, and clinical &amp; coaching philosophy.</p>
+      <a href="/about/" class="button">Go to About Me</a>
+    </div>
+  </li>
+
+  <li role="region" aria-labelledby="card-research">
+    <div class="content-wrapper">
+      <h3 id="card-research">Research</h3>
+      <p>See my publications, ongoing projects, and grant work.</p>
+      <a href="/research/" class="button">Go to Research</a>
+    </div>
+  </li>
+
+  <li role="region" aria-labelledby="card-teaching">
+    <div class="content-wrapper">
+      <h3 id="card-teaching">Teaching</h3>
+      <p>Explore my teaching portfolio: statement, metrics, and artifacts.</p>
+      <a href="/teaching-portfolio/" class="button">Go to Teaching</a>
+    </div>
+  </li>
+
+  <li role="region" aria-labelledby="card-diversity">
+    <div class="content-wrapper">
+      <h3 id="card-diversity">Diversity &amp; Inclusion</h3>
+      <p>Read my diversity statement and inclusive practices.</p>
+      <a href="/diversity/" class="button">Go to Diversity</a>
+    </div>
+  </li>
+
+  <li role="region" aria-labelledby="card-coaching">
+    <div class="content-wrapper">
+      <h3 id="card-coaching">Coaching Services</h3>
+      <p>Review packages, rates, FAQs, and book a free discovery call.</p>
+      <a href="/rates-and-packages/" class="button">Go to Coaching</a>
+    </div>
+  </li>
+
+  <li role="region" aria-labelledby="card-contact">
+    <div class="content-wrapper">
+      <h3 id="card-contact">Contact</h3>
+      <p>Submit an inquiry form or schedule a chat to get started.</p>
+      <a href="/contact/" class="button">Go to Contact</a>
+    </div>
+  </li>
+</ul>
+
+    <button onclick="scrollToTop()" id="topBtn" title="Back to Top">↑ Top</button>
+
+<script>
+  // Show/hide the Back to Top button
+  window.addEventListener('scroll', function () {
+    const btn = document.getElementById("topBtn");
+    if (window.scrollY > 400) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  // Smooth scroll to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+  </div>
+    <!-- _includes/social_links.html -->
+<footer class="social-footer" role="contentinfo" aria-label="Social media links">
+  <div class="social-icons">
+    <!-- Google Scholar SVG -->
+    <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ"
+       target="_blank" rel="noopener" aria-label="Google Scholar">
+      <img src="/assets/icons/google-scholar.svg"
+           alt="Google Scholar"
+           class="social-icon svg-icon" />
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/your-profile"
+       target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/your_handle"
+       target="_blank" rel="noopener" aria-label="Instagram">
+      <i class="fab fa-instagram social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/your_profile"
+       target="_blank" rel="noopener" aria-label="Facebook">
+      <i class="fab fa-facebook social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Discord -->
+    <a href="https://discord.gg/your_invite"
+       target="_blank" rel="noopener" aria-label="Discord">
+      <i class="fab fa-discord social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@your_handle"
+       target="_blank" rel="noopener" aria-label="TikTok">
+      <i class="fab fa-tiktok social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- X (Twitter) -->
+    <a href="https://twitter.com/your_handle"
+       target="_blank" rel="noopener" aria-label="X">
+      <i class="fab fa-twitter social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- ResearchGate -->
+    <a href="https://www.researchgate.net/profile/YourName"
+       target="_blank" rel="noopener" aria-label="ResearchGate">
+      <i class="fab fa-researchgate social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Psychology Today PNG -->
+    <a href="https://www.psychologytoday.com/profile/your-profile"
+       target="_blank" rel="noopener" aria-label="Psychology Today">
+      <img src="/assets/icons/psychology-today.png"
+           alt="Psychology Today"
+           class="social-icon" />
+    </a>
+  </div>
+
+  <!-- Follow on LinkedIn Button -->
+<a href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+   target="_blank"
+   rel="noopener"
+   aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+  <img src="/assets/icons/LinkedIn.png"
+       alt="Follow on LinkedIn"
+       class="social-icon" />
+<!-- </a>
+  <a class="libutton"
+     href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+     target="_blank" rel="noopener" aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+    Follow on LinkedIn
+  </a> --> 
+</footer>
+
+</body>
+</html>

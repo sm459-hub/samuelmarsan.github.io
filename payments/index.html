@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make a Payment</title>
+
+  <!-- Font Awesome (for social icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pOeq4KCIhFEqI1zYsM1uMUQ3N6S3y7R5QxRfYuUwY1v5sL7eJJe6jh0ccrUH1/OVRH6LhjChjOIJKSiqG8Pibg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <!-- Fixed background layer -->
+  <div class="background-layer"></div>
+
+  <!-- Site header/nav -->
+  <!-- File: _includes/header.html -->
+<nav role="navigation" aria-label="Main site navigation">
+  <a href="/">Home</a>
+  <a href="/about/">About Me</a>
+  <a href="/research/">Research</a>
+  <a href="/teaching-portfolio/">Teaching</a>
+  <a href="/diversity/">Diversity &amp; Inclusion</a>
+
+  <div class="dropdown" role="menu" aria-haspopup="true">
+    <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false">
+      Coaching ▼
+    </button>
+    <div class="dropdown-content" id="servicesMenu" role="menu">
+      <a role="menuitem" href="/executive-coaching/">Executive Coaching</a>
+      <a role="menuitem" href="/life-coaching/">Life/Wellness Coaching</a>
+      <a role="menuitem" href="/gender-coaching/">Gender &amp; Identity Coaching</a>
+      <a role="menuitem" href="/relationship-family-coaching/">Family &amp; Relationships</a>
+      <hr>
+      <a role="menuitem" href="/rates-and-packages/">Rates &amp; Packages</a>
+    </div>
+  </div>
+
+  <a href="/contact/">Contact</a>
+</nav>
+
+<script>
+  // Toggle the Coaching dropdown
+  function toggleDropdown(id) {
+    const menu = document.getElementById(id);
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+  document.addEventListener('click', e => {
+    const menu = document.getElementById("servicesMenu");
+    if (!e.target.closest('.dropbtn')) menu.style.display = 'none';
+  });
+</script>
+
+
+  <!-- Scrollable main content -->
+  <div class="main-layer">
+    <div class="content-wrapper">
+      <h1>Make a Payment</h1>
+      <p>Thank you for choosing to work together. You can use the options below to send payment securely for coaching services, sliding-scale donations, or humanitarian contributions.</p>
+
+<hr />
+
+<h3 id="-pay-via-venmo">🔵 Pay via Venmo</h3>
+
+<p>You can pay using your phone’s camera or the Venmo app by scanning the code below.</p>
+
+<p><strong>@Samuel-Marsan</strong></p>
+
+<p><img src="/assets/venmo_me.jpg" alt="Venmo QR Code for Samuel Marsan" style="max-width: 300px; margin: 1rem auto; display: block;" /></p>
+
+<p>If you can’t scan the QR code, just click the button below to go directly to my Venmo profile:</p>
+
+<p><a href="https://venmo.com/Samuel-Marsan">🔗 Open @Samuel-Marsan on Venmo</a></p>
+
+<hr />
+
+<h3 id="-pay-via-paypal">💳 Pay via PayPal</h3>
+
+<p>You can also use PayPal by clicking the secure link below:</p>
+
+<p><strong><a href="https://www.paypal.me/SamuelMarsan">PayPal.me/SamuelMarsan</a></strong></p>
+
+<hr />
+
+<h3 id="-payment-notes">🧾 Payment Notes</h3>
+
+<ul>
+  <li>Please include your <strong>name</strong> and <strong>service type</strong> (e.g., executive coaching, life coaching, donation, etc.) in the payment notes.</li>
+  <li>If this is a <strong>recurring</strong> session, you may prepay in bundles or schedule at your preferred frequency.</li>
+  <li>A receipt will be sent upon request. For any questions, <a href="/contact/">contact me</a>.</li>
+</ul>
+
+<hr />
+
+
+    </div>
+
+    <!-- Back to Top button & scroll script -->
+    <button onclick="scrollToTop()" id="topBtn" title="Back to Top">↑ Top</button>
+
+<script>
+  // Show/hide the Back to Top button
+  window.addEventListener('scroll', function () {
+    const btn = document.getElementById("topBtn");
+    if (window.scrollY > 400) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  // Smooth scroll to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+
+    <!-- Social media footer -->
+    <!-- _includes/social_links.html -->
+<footer class="social-footer" role="contentinfo" aria-label="Social media links">
+  <div class="social-icons">
+    <!-- Google Scholar SVG -->
+    <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ"
+       target="_blank" rel="noopener" aria-label="Google Scholar">
+      <img src="/assets/icons/google-scholar.svg"
+           alt="Google Scholar"
+           class="social-icon svg-icon" />
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/your-profile"
+       target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/your_handle"
+       target="_blank" rel="noopener" aria-label="Instagram">
+      <i class="fab fa-instagram social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/your_profile"
+       target="_blank" rel="noopener" aria-label="Facebook">
+      <i class="fab fa-facebook social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Discord -->
+    <a href="https://discord.gg/your_invite"
+       target="_blank" rel="noopener" aria-label="Discord">
+      <i class="fab fa-discord social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@your_handle"
+       target="_blank" rel="noopener" aria-label="TikTok">
+      <i class="fab fa-tiktok social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- X (Twitter) -->
+    <a href="https://twitter.com/your_handle"
+       target="_blank" rel="noopener" aria-label="X">
+      <i class="fab fa-twitter social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- ResearchGate -->
+    <a href="https://www.researchgate.net/profile/YourName"
+       target="_blank" rel="noopener" aria-label="ResearchGate">
+      <i class="fab fa-researchgate social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Psychology Today PNG -->
+    <a href="https://www.psychologytoday.com/profile/your-profile"
+       target="_blank" rel="noopener" aria-label="Psychology Today">
+      <img src="/assets/icons/psychology-today.png"
+           alt="Psychology Today"
+           class="social-icon" />
+    </a>
+  </div>
+
+  <!-- Follow on LinkedIn Button -->
+<a href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+   target="_blank"
+   rel="noopener"
+   aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+  <img src="/assets/icons/LinkedIn.png"
+       alt="Follow on LinkedIn"
+       class="social-icon" />
+<!-- </a>
+  <a class="libutton"
+     href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+     target="_blank" rel="noopener" aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+    Follow on LinkedIn
+  </a> --> 
+</footer>
+
+  </div>
+    <!-- _includes/social_links.html -->
+<footer class="social-footer" role="contentinfo" aria-label="Social media links">
+  <div class="social-icons">
+    <!-- Google Scholar SVG -->
+    <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ"
+       target="_blank" rel="noopener" aria-label="Google Scholar">
+      <img src="/assets/icons/google-scholar.svg"
+           alt="Google Scholar"
+           class="social-icon svg-icon" />
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/your-profile"
+       target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/your_handle"
+       target="_blank" rel="noopener" aria-label="Instagram">
+      <i class="fab fa-instagram social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/your_profile"
+       target="_blank" rel="noopener" aria-label="Facebook">
+      <i class="fab fa-facebook social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Discord -->
+    <a href="https://discord.gg/your_invite"
+       target="_blank" rel="noopener" aria-label="Discord">
+      <i class="fab fa-discord social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@your_handle"
+       target="_blank" rel="noopener" aria-label="TikTok">
+      <i class="fab fa-tiktok social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- X (Twitter) -->
+    <a href="https://twitter.com/your_handle"
+       target="_blank" rel="noopener" aria-label="X">
+      <i class="fab fa-twitter social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- ResearchGate -->
+    <a href="https://www.researchgate.net/profile/YourName"
+       target="_blank" rel="noopener" aria-label="ResearchGate">
+      <i class="fab fa-researchgate social-icon" aria-hidden="true"></i>
+    </a>
+    <!-- Psychology Today PNG -->
+    <a href="https://www.psychologytoday.com/profile/your-profile"
+       target="_blank" rel="noopener" aria-label="Psychology Today">
+      <img src="/assets/icons/psychology-today.png"
+           alt="Psychology Today"
+           class="social-icon" />
+    </a>
+  </div>
+
+  <!-- Follow on LinkedIn Button -->
+<a href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+   target="_blank"
+   rel="noopener"
+   aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+  <img src="/assets/icons/LinkedIn.png"
+       alt="Follow on LinkedIn"
+       class="social-icon" />
+<!-- </a>
+  <a class="libutton"
+     href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-marsán-pérez-m-a-87961597"
+     target="_blank" rel="noopener" aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+    Follow on LinkedIn
+  </a> --> 
+</footer>
+
+</body>
+</html>
