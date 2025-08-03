@@ -3,7 +3,7 @@ layout: default
 title: Research
 permalink: /research/
 ---
-{% debug_check %}
+
 # Research
 
 My research explores how gender identity, embodiment, and sociocultural factors shape psychological well-being, particularly in LGBTQ+ youth. Drawing on clinical psychology, developmental science, and community-engaged methodologies, I focus on body image, resilience, and measurement design. My goal is to support affirming interventions through evidence-based insights and inclusive instruments.
@@ -19,9 +19,19 @@ My research explores how gender identity, embodiment, and sociocultural factors 
 
 ## Selected Publications
 
-The following peer-reviewed publications and presentations include my contributions. The full list is available in [my CV]({{ '/cv#publications' | relative_url }}).
+- **Marsan, S.,** Herbert, B. M., Bulik, C., Loeb, K., & Zucker, N. (2020). Gut hypervigilance in anorexia nervosa: Implications for treatment.  
+  _Annals of Behavioral Medicine, 54_(Suppl. 1), S517–S517.  
+  [View publication](https://doi.org/DOI:%2010.1093/abm/kaaa009)
 
-<!-- List from your CV (as previously provided) -->
+- **Marsan, S.,** Farber, M., & Maslow, G. (2020). Feeling and body investigators: A randomized controlled trial of a treatment for young children with functional abdominal pain.  
+  _Annals of Behavioral Medicine, 54_(Suppl. 1), S515–S515.  
+  [View publication](https://doi.org/DOI:%2010.1093/abm/kaaa009)
+
+- **Marsan, S.,** Calderbank, R., Baker, J., Egger, H., Dawson, G., & Sapiro, G. (2015). A scalable app for measuring autism risk behaviors in young children: A technical validity and feasibility study.  
+  _EAI Endorsed Transactions on Scalable Information Systems_, _3_(10), 23–27.  
+  [View publication](https://doi.org/DOI%2010.4108/eai.14-10-2015.2261939)
+
+The full list is available in [my CV]({{ '/cv#publications' | relative_url }}).
 
 ---
 
