@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  <!-- Font Awesome - includes brands -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pOeq4KCIhFEqI1zYsM1uMUQ3N6S3y7R5QxRfYuUwY1v5sL7eJJe6jh0ccrUH1/OVRH6LhjChjOIJKSiqG8Pibg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
   <!-- Fixed background -->
@@ -15,11 +24,7 @@
 
   <!-- Scrollable main content -->
   <div class="main-layer">
-
-    <!-- YOUR CONTENT GOES HERE (no .content-wrapper) -->
     {{ content | markdownify }}
-
-    <!-- Back to Top & scripts -->
     {% include footer.html %}
   </div>
 </body>
