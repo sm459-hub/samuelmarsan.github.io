@@ -330,3 +330,43 @@ nav .dropbtn:focus-visible {
 .main-layer {
   margin-bottom: 80px; /* adjust to footer’s height + padding */
 }
+/* — Footer always at bottom, over parallax background — */
+.social-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255,255,255,0.9);
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+/* Push main content above footer */
+.main-layer {
+  /* adjust if your footer is taller/larger */
+  margin-bottom: 80px;
+}
+
+/* Remove broken bullet markers if any */
+.card-grid {
+  list-style: none;
+}
+
+/* Ensure #topBtn floats above footer and stays in corner */
+#topBtn {
+  right: 30px;
+  bottom: 80px;   /* footer height + 10px */
+  z-index: 1100;
+}
+
+/* Responsive nav overlap fix: always push content below nav */
+@supports (position: sticky) {
+  .main-layer { margin-top: 64px; }
+} else {
+  .main-layer { margin-top: 64px; }
+}
+
+/* Adjust mobile nav/content spacing */
+@media (max-width: 600px) {
+  .main-layer { margin-top: 56px; margin-bottom: 72px; }
+}
