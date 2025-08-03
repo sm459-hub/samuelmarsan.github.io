@@ -395,3 +395,15 @@ nav .dropbtn:focus-visible {
   vertical-align: middle;   /* align with text baseline */
   margin-right: 0.4em;      /* gap between icon & text */
 }
+.scholar-publications {
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem 0;
+}
+.scholar-publications li {
+  margin-bottom: 1rem;
+}
+.scholar-publications a {
+  text-decoration: underline;
+  color: #0A66C2;
+}
