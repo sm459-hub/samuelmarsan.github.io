@@ -4,12 +4,14 @@ baseurl: ""  # Leave blank for root-level GitHub Pages sites
 url: "https://samuelmarsan.com"  # Your custom domain
 markdown: kramdown
 theme: null
-plugins: []
-exclude: ["README.md"]
-google_scholar_id: eGQIUA8AAAAJ
+
+plugins_dir: _plugins  # <-- Add this line
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   # no need to declare custom plugins like scholar_stats.rb
+
+exclude: ["README.md"]
+google_scholar_id: eGQIUA8AAAAJ
