@@ -1,4 +1,4 @@
-## Peer-Reviewed Journal Publications
+### Peer-Reviewed Journal Publications
 
 Ng, S., Liu, Y., Gaither, S., **Marsan, S.,** & Zucker, N. (2021). The clash of culture and cuisine: A qualitative exploration of cultural tensions and attitudes toward food and body in Chinese young adult women. _International Journal of Eating Disorders, 54_(2), 174–183. <https://doi.org/10.1002/eat.23459>
 
@@ -18,7 +18,7 @@ Hashemi, J., Campbell, K., Carpenter, K., Harris, A., Qiu, Q., Tepper, M., Espin
 
 Faulkner, M. L., Baldner, C. S., Marsan, S., & Boettiger, C. A. (2014). Increased attentional bias for alcohol related images in heavy binge drinkers compared to moderate social drinkers. _Alcoholism: Clinical and Experimental Research, 38_(Suppl. 1), 279A-279A. <https://doi.org/10.1111/acer.12451>
 
-## Manuscripts in preparation
+### Manuscripts in preparation
 
 **Marsan, S.,** Mann, C., Hernandez, A., Bahnson, K., Russell, K., Zucker, N., Whicker, D., Marinkovic, M., Adkins, D., Hamilton, M., Ingledue, G., Ebuengan, G., McLaughlin, K., Henke, D., & Reeve, B. (2023). _A conceptual framework of gender dysphoria for trans youth through a developmental lens_ \[Manuscript in preparation\]_._ Department of Psychology and Neuroscience, Duke University.
 
@@ -30,7 +30,7 @@ Faulkner, M. L., Baldner, C. S., Marsan, S., & Boettiger, C. A. (2014). Increase
 
 Citron, K., **Marsan, S.,** Sundar, K., Dillon, A., Izquierdo, N., Mohamedali, L., & Zucker, N. (2023). _Definition and experience of gender euphoria from transgender adult perspectives_ \[Manuscript in preparation\]_._ Department of Psychology and Neuroscience, Duke University.
 
-## Selected Talks and Presentations
+### Selected Talks and Presentations
 
 Blacklock, C., Buzwell, S., Elphinstone, B., Tollit, M. A., Pace, C., Zwickl, S., Cheung, A. S., Citron, K., Zucker, N., **Marsan, S.,** Pang, K., (2023, November 2-4). _The gender euphoria scale (GES): Development of a tool to measure gender euphoria_ \[Oral abstract\]. AusPath Biennial Conference 2023, Melbourne, Australia.
 
