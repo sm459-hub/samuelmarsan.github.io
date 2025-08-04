@@ -17,6 +17,15 @@ In discussion, I co-create norms that honor diverse voices and encourage respect
 
 By continually soliciting feedback—both through mid-semester check-ins and anonymous reflections—I adapt my teaching practices to address emerging needs, reduce barriers, and foster a sense of belonging for all. Together, we build a classroom culture where equity, inclusion, and mutual respect propel every student toward their highest potential.
 
+
+### Artifact  
+<a href="/assets/Diversity_Statement.pdf"
+   target="_blank"
+   rel="noopener"
+   aria-label="Download Diversity Statement">
+  Diversity Statement (PDF)
+</a>
+
 ### Inclusive Practices  
 - Universal‐Design accommodations  
 - Bilingual support & culturally responsive materials  
@@ -32,4 +41,5 @@ By continually soliciting feedback—both through mid-semester check-ins and ano
 ## Experience & Methods  
 - Developed clear learning objectives, transparent rubrics  
 - Led active‐learning activities: think-pair-share, multimedia modules  
-- Supported accommodations through individualized prep & follow-up  
+- Supported accommodations through individualized prep & follow-up
+
