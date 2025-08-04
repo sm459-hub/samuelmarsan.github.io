@@ -14,9 +14,9 @@ I approach coaching as a collaborative, values-driven process that integrates li
 I view diversity not as a static trait, but as a dynamic asset in our coaching work. I engage in regular anti-oppressive training, reflective supervision, and consultation with multicultural and gender-specialty teams. My doctoral research—focused on embodiment and body image among transgender youth—has taught me to ask deeper questions about systemic inclusion, access, and justice in psychological frameworks. I bring that same curiosity and responsibility to my coaching relationships.
 
 As I expand my coaching practice, I remain committed to:
-	•	Offering coaching in English and Spanish
-	•	Prioritizing access through flexible formats and universal design
-	•	Co-creating safe and accountable coaching agreements
-	•	Soliciting regular feedback to identify and dismantle emerging barriers
+- Offering coaching in English and Spanish
+- Prioritizing access through flexible formats and universal design
+- Co-creating safe and accountable coaching agreements
+- Soliciting regular feedback to identify and dismantle emerging barriers
 
 Together, we’ll build a coaching partnership where your lived wisdom is honored, your values are the compass, and your growth is sustained through evidence-aligned, equity-centered care.
