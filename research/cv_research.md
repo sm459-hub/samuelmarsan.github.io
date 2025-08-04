@@ -1,5 +1,3 @@
-# Research Experience
-
 **Duke Population Science**, Durham, NC 2018-present
 
 **Qualitative Research Analyst,** Transgender Health Measurement- 2018-present
