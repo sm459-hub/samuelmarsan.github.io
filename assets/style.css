@@ -407,3 +407,19 @@ nav .dropbtn:focus-visible {
   text-decoration: underline;
   color: #0A66C2;
 }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.sidebar-nav {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex: 1;
+}
