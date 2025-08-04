@@ -24,9 +24,16 @@ My research explores how gender identity, embodiment, and sociocultural factors 
 
 ## Google Scholar Profile
 
-<div class="scholar-profile" style="margin-bottom: 2rem; display: flex; align-items: center; gap: 0.5rem;">
-  <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Samuel Marsán Pérez on Google Scholar" style="display: inline-flex; align-items: center; text-decoration: none;">
-    <img src="{{ '/assets/icons/google-scholar.svg' | relative_url }}" alt="Google Scholar icon" class="social-icon" style="height: 32px;" />
-    <span style="font-size: 1rem; color: #005792;"> Google Scholar</span>
+<div class="scholar-profile" style="margin-bottom: 2rem; display: flex; align-items: center;">
+  <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en"
+     target="_blank"
+     rel="noopener"
+     aria-label="Samuel Marsán Pérez on Google Scholar"
+     style="display: inline-flex; align-items: center; text-decoration: none;">
+    <img src="{{ '/assets/icons/google-scholar.svg' | relative_url }}"
+         alt="Google Scholar icon"
+         class="social-icon"
+         style="height: 32px;" />
+    <span style="margin-left: 0.5rem; font-size: 1rem; color: #005792;">Google Scholar</span>
   </a>
 </div>
