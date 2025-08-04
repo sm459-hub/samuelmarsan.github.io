@@ -10,18 +10,6 @@ My research explores how gender identity, embodiment, and sociocultural factors 
 
 ---
 
-## Research Experience
-
-{% include_relative cv_research.md %}
-
----
-
-## Selected Publications
-
-{% include_relative cv_publications.md %}
-
----
-
 ## Google Scholar Profile
 
 <div class="scholar-profile" style="margin-bottom: 2rem; display: flex; align-items: center;">
@@ -37,3 +25,15 @@ My research explores how gender identity, embodiment, and sociocultural factors 
     <span style="margin-left: 0.5rem; font-size: 1rem; color: #005792;">Google Scholar</span>
   </a>
 </div>
+
+___
+
+## Research Experience
+
+{% include_relative cv_research.md %}
+
+---
+
+## Selected Publications
+
+{% include_relative cv_publications.md %}
