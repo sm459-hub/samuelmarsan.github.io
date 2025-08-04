@@ -7,8 +7,6 @@ permalink: /research/
 
 My research explores how gender identity, embodiment, and sociocultural factors shape psychological well-being, particularly in LGBTQ+ youth. Drawing on clinical psychology, developmental science, and community-engaged methodologies, I focus on body image, resilience, and measurement design. My goal is to support affirming interventions through evidence-based insights and inclusive instruments.
 
-## Google Scholar Profile
-
 <div class="scholar-profile" style="margin-bottom: 2rem; display: flex; align-items: center;">
   <a href="https://scholar.google.com/citations?user=eGQIUA8AAAAJ&hl=en"
      target="_blank"
@@ -24,9 +22,11 @@ My research explores how gender identity, embodiment, and sociocultural factors 
 </div>
 
 
+
 ## Research Experience
 
 {% include_relative cv_research.md %}
+
 
 
 ## Selected Publications
