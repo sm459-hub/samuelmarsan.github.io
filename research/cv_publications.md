@@ -1,5 +1,3 @@
-# Publications
-
 ## Peer-Reviewed Journal Publications
 
 Ng, S., Liu, Y., Gaither, S., **Marsan, S.,** & Zucker, N. (2021). The clash of culture and cuisine: A qualitative exploration of cultural tensions and attitudes toward food and body in Chinese young adult women. _International Journal of Eating Disorders, 54_(2), 174–183. <https://doi.org/10.1002/eat.23459>
