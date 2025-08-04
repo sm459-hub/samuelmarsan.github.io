@@ -4,25 +4,19 @@ title: Diversity & Inclusion
 permalink: /diversity/
 ---
 
-## Statement
 
-I am committed to creating a learning environment where every student—regardless of background, identity, or ability—feels valued, empowered, and equipped to succeed. My intention is to serve students from all diverse perspectives and to view that diversity as a resource, strength, and benefit to our collective learning community. I strive to present materials and activities that are respectful of gender identity, sexual orientation, disability status, age, religion, socioeconomic status, race, ethnicity, culture, and neurodiversity, and I welcome suggestions to ensure that our classroom remains supportive and accessible.
+I am deeply committed to cultivating a coaching space where all clients—across identities, backgrounds, and lived experiences—feel genuinely seen, affirmed, and empowered. As a bilingual, neurodivergent clinician and researcher trained in Cognitive Behavioral Therapy (CBT), Acceptance and Commitment Therapy (ACT), and Relational Frame Theory (RFT), I ground my coaching in both psychosocial theory and evidence-based practice, drawing from frameworks that validate complexity and foster adaptive change.
 
-Drawing on universal-design principles, I offer multiple ways for students to engage with content—combining visual, auditory, and hands-on experiences—so each learner can choose the mode that works best for them. I embed clear accommodation procedures into every syllabus, guide students through institutional support channels, and model self-advocacy through sharing my own journey as a neurodivergent learner.
+My commitment to diversity is anchored in years of direct service with underrepresented communities—LGBTQ+ youth, Spanish-speaking families, autistic adults, and individuals navigating intersecting marginalizations. Across clinical and academic settings, I have supported clients and research participants through trauma-informed, affirming, and culturally responsive interventions. From parent coaching groups in Spanish to gender-focused cognitive interventions in English, I adapt my methods to meet clients’ linguistic, cultural, and neurocognitive needs.
 
-In discussion, I co-create norms that honor diverse voices and encourage respectful dialogue; in assessment, I design transparent rubrics and low-stakes reflection prompts that allow students to demonstrate mastery in ways that leverage their strengths. Outside of class, I volunteer in bilingual tutoring programs and guest-lecture in high school and college settings to broaden access to psychology for underrepresented learners.
+I approach coaching as a collaborative, values-driven process that integrates lived experience with behavioral science. Whether supporting identity development, emotion regulation, or professional transitions, I draw from my training in self-determination theory, mindfulness-based protocols, and contextual behavioral science to center dignity, autonomy, and empowerment.
 
-By continually soliciting feedback—both through mid-semester check-ins and anonymous reflections—I adapt my teaching practices to address emerging needs, reduce barriers, and foster a sense of belonging for all. Together, we build a classroom culture where equity, inclusion, and mutual respect propel every student toward their highest potential.
+I view diversity not as a static trait, but as a dynamic asset in our coaching work. I engage in regular anti-oppressive training, reflective supervision, and consultation with multicultural and gender-specialty teams. My doctoral research—focused on embodiment and body image among transgender youth—has taught me to ask deeper questions about systemic inclusion, access, and justice in psychological frameworks. I bring that same curiosity and responsibility to my coaching relationships.
 
-### Inclusive Practices  
-- Universal‐Design accommodations  
-- Bilingual support & culturally responsive materials  
-- Explicit inclusion statements on all syllabi
+As I expand my coaching practice, I remain committed to:
+	•	Offering coaching in English and Spanish
+	•	Prioritizing access through flexible formats and universal design
+	•	Co-creating safe and accountable coaching agreements
+	•	Soliciting regular feedback to identify and dismantle emerging barriers
 
-### Artifact  
-<a href="/assets/Diversity_Statement.pdf"
-   target="_blank"
-   rel="noopener"
-   aria-label="Download Diversity Statement">
-  Diversity Statement (PDF)
-</a>
+Together, we’ll build a coaching partnership where your lived wisdom is honored, your values are the compass, and your growth is sustained through evidence-aligned, equity-centered care.
