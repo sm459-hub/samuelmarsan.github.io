@@ -23,13 +23,11 @@ My research explores how gender identity, embodiment, and sociocultural factors 
   </a>
 </div>
 
-___
 
 ## Research Experience
 
 {% include_relative cv_research.md %}
 
----
 
 ## Selected Publications
 
