@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
-  <!-- Font Awesome - includes brands -->
+  <!-- Font Awesome (for social icons) -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -14,9 +13,11 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-  <!-- Fixed background -->
+  <!-- Fixed background layer -->
   <div class="background-layer"></div>
 
   <!-- Site header/nav -->
@@ -24,9 +25,16 @@
 
   <!-- Scrollable main content -->
   <div class="main-layer">
-    {{ content | markdownify }}
+    <div class="content-wrapper">
+      <h1>{{ page.title }}</h1>
+      {{ content | markdownify }}
+    </div>
+
+    <!-- Back to Top button & page footer -->
     {% include footer.html %}
   </div>
-    {% include social_links.html %}
+
+  <!-- Social media footer (load once, outside .main-layer) -->
+  {% include social_links.html %}
 </body>
 </html>
