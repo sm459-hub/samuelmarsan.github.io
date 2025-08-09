@@ -65,16 +65,27 @@ img { max-width: 100%; height: auto; }
   padding: 0.75rem 1rem;
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
+/* Align the 'Home' brand button with other nav items */
 .site-nav .brand {
-  font-weight: 700;
+  font-weight: 700;               /* slightly bolder than other links */
+  font-size: 1rem;                /* match link size */
+  padding: 0.5rem 0.75rem;        /* match link padding */
+  display: inline-block;
   color: var(--primary-blue);
   text-decoration: none;
 }
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-left: auto;
+
+.site-nav .brand:hover {
+  color: var(--primary-blue-dark);
+  text-decoration: underline;
+}
+
+/* Keep spacing consistent when the menu collapses on mobile */
+@media (max-width: 800px) {
+  .site-nav .brand {
+    padding: 0.75rem 0.9rem;      /* slightly larger tap target on mobile */
+  }
+}
 }
 .site-nav a,
 .site-nav .dropbtn {
