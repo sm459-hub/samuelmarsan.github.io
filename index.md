@@ -6,7 +6,7 @@ permalink: /
 
 <!-- Wrap the intro in .content-wrapper to get the opaque panel style -->
 <div class="content-wrapper">
-  <h1>Welcome</h1>
+  <!-- <h1>Welcome</h1> -->
   <p>This is your one-stop hub for my professional portfolio. Click to explore each section:</p>
 </div>
 
@@ -60,3 +60,4 @@ permalink: /
     </div>
   </li>
 </ul>
+
