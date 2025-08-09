@@ -22,39 +22,65 @@
 
   <!-- Site header/nav -->
   <!-- File: _includes/header.html -->
-<nav role="navigation" aria-label="Main site navigation">
-  <a href="/">Home</a>
-  <a href="/about/">About Me</a>
-  <a href="/research/">Research</a>
-  <a href="/teaching-portfolio/">Teaching</a>
-  <a href="/diversity/">Diversity &amp; Inclusion</a>
+<nav class="site-nav" role="navigation" aria-label="Main site navigation">
+  <a class="brand" href="/">SM</a>
 
-  <div class="dropdown" role="menu" aria-haspopup="true">
-    <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false">
-      Coaching ▼
-    </button>
-    <div class="dropdown-content" id="servicesMenu" role="menu">
-      <a role="menuitem" href="/executive-coaching/">Executive Coaching</a>
-      <a role="menuitem" href="/life-coaching/">Life/Wellness Coaching</a>
-      <a role="menuitem" href="/gender-coaching/">Gender &amp; Identity Coaching</a>
-      <a role="menuitem" href="/relationship-family-coaching/">Family &amp; Relationships</a>
-      <hr>
-      <a role="menuitem" href="/rates-and-packages/">Rates &amp; Packages</a>
+  <!-- Hamburger button (mobile only) -->
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" onclick="toggleNav()">
+    <span class="sr-only">Toggle navigation</span>
+    &#9776;
+  </button>
+
+  <!-- All links live here -->
+  <div id="nav-links" class="nav-links" data-collapsible>
+    <a href="/">Home</a>
+    <a href="/about/">About Me</a>
+    <a href="/research/">Research</a>
+    <a href="/teaching-portfolio/">Teaching</a>
+    <a href="/diversity/">Diversity &amp; Inclusion</a>
+
+    <!-- Coaching dropdown -->
+    <div class="dropdown" role="group" aria-label="Coaching">
+      <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false" aria-controls="servicesMenu">
+        Coaching ▼
+      </button>
+      <div class="dropdown-content" id="servicesMenu" role="menu">
+        <a role="menuitem" href="/executive-coaching/">Executive Coaching</a>
+        <a role="menuitem" href="/life-coaching/">Life/Wellness Coaching</a>
+        <a role="menuitem" href="/gender-coaching/">Gender &amp; Identity Coaching</a>
+        <a role="menuitem" href="/health-wellness-coaching/">Health &amp; Wellness Coaching</a>
+        <a role="menuitem" href="/relationship-family-coaching/">Relationship &amp; Family Coaching</a>
+      </div>
     </div>
-  </div>
 
-  <a href="/contact/">Contact</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/rates-and-packages/">Rates</a>
+    <a href="/contact/">Contact</a>
+  </div>
 </nav>
 
 <script>
-  // Toggle the Coaching dropdown
+  // Mobile hamburger toggle
+  function toggleNav() {
+    const links = document.getElementById('nav-links');
+    const btn = document.querySelector('.nav-toggle');
+    const isOpen = links.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
+
+  // Coaching dropdown toggle (works in both mobile and desktop)
   function toggleDropdown(id) {
     const menu = document.getElementById(id);
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
+    const isOpen = menu.style.display === 'block';
+    menu.style.display = isOpen ? 'none' : 'block';
+    const btn = document.querySelector('.dropbtn');
+    if (btn) btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
   }
-  document.addEventListener('click', e => {
-    const menu = document.getElementById("servicesMenu");
-    if (!e.target.closest('.dropbtn')) menu.style.display = 'none';
+
+  // Close menus when clicking outside
+  document.addEventListener('click', (e) => {
+    const dropdown = document.getElementById('servicesMenu');
+    if (dropdown && !e.target.closest('.dropdown')) dropdown.style.display = 'none';
   });
 </script>
 
