@@ -66,15 +66,18 @@ I bring experience in research, practice, and advocacy across diverse cultural a
       Download Full CV
     </a>
   </li>
-  <li>
-    <a href="https://www.linkedin.com/in/samuel-mars%C3%A1n-p%C3%A9rez-m-a-87961597"
-       target="_blank" rel="noopener">
-      <!-- LinkedIn PNG icon -->
-      <img
-        src="{{ '/assets/icons/LinkedIn.png' | relative_url }}"
-        alt=""
-        class="quick-link-icon" />
-      Connect on LinkedIn
-    </a>
-  </li>
+  <style>
+.libutton {
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:7px 12px; height:32px; border-radius:16px; width:auto;
+  text-decoration:none!important; color:#fff!important; background:#0A66C2;
+  font-family: "SF Pro Text", Helvetica, sans-serif; font-size:14px;
+}
+.libutton i{ margin-right:.5rem; }
+</style>
+<a class="libutton"
+   href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&amp;followMember=samuel-mars%C3%A1n-p%C3%A9rez-m-a-87961597"
+   target="_blank" rel="noopener" aria-label="Follow Samuel Marsán Pérez on LinkedIn">
+  <i class="fab fa-linkedin"></i> Follow on LinkedIn
+</a>
 </ul>
