@@ -11,7 +11,7 @@ permalink: /about/
 ## Samuel Marsán Pérez, M.A.  
 **Bilingual (English–Spanish) Life Coach with Clinical Psychology Training—All But Dissertation (ABD)**
 
-I help individuals, couples, families, and groups navigate life transitions, overcome limiting beliefs, and build sustainable wellness through an integrated approach of coaching informed by Cognitive Behavioral Therapies (CBTs), including Acceptancea and Committment Therapy (ACT). With specialized training in:
+I help individuals, couples, families, and groups navigate life transitions, overcome limiting beliefs, and build sustainable wellness through an integrated approach of coaching informed by Cognitive Behavioral Therapies (CBTs), including Acceptance and Committment Therapy (ACT). With specialized training in:
 
 - Academic Coaching (e.g., learning how to learn)
 - Executive Coaching (e.g., corporate)
