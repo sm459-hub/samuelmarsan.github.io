@@ -1,36 +1,62 @@
 <!-- File: _includes/header.html -->
-<nav role="navigation" aria-label="Main site navigation">
-  <a href="{{ '/'  | relative_url }}">Home</a>
-  <a href="{{ '/about/'  | relative_url }}">About Me</a>
-  <a href="{{ '/research/'  | relative_url }}">Research</a>
-  <a href="{{ '/teaching-portfolio/'  | relative_url }}">Teaching</a>
-  <a href="{{ '/diversity/'  | relative_url }}">Diversity &amp; Inclusion</a>
+<nav class="site-nav" role="navigation" aria-label="Main site navigation">
+  <a class="brand" href="{{ '/' | relative_url }}">SM</a>
 
-  <div class="dropdown" role="menu" aria-haspopup="true">
-    <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false">
-      Coaching ▼
-    </button>
-    <div class="dropdown-content" id="servicesMenu" role="menu">
-      <a role="menuitem" href="{{ '/executive-coaching/'            | relative_url }}">Executive Coaching</a>
-      <a role="menuitem" href="{{ '/life-coaching/'                 | relative_url }}">Life/Wellness Coaching</a>
-      <a role="menuitem" href="{{ '/gender-coaching/'               | relative_url }}">Gender &amp; Identity Coaching</a>
-      <a role="menuitem" href="{{ '/relationship-family-coaching/'  | relative_url }}">Family &amp; Relationships</a>
-      <hr>
-      <a role="menuitem" href="{{ '/rates-and-packages/'            | relative_url }}">Rates &amp; Packages</a>
+  <!-- Hamburger button (mobile only) -->
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" onclick="toggleNav()">
+    <span class="sr-only">Toggle navigation</span>
+    &#9776;
+  </button>
+
+  <!-- All links live here -->
+  <div id="nav-links" class="nav-links" data-collapsible>
+    <a href="{{ '/'  | relative_url }}">Home</a>
+    <a href="{{ '/about/'  | relative_url }}">About Me</a>
+    <a href="{{ '/research/'  | relative_url }}">Research</a>
+    <a href="{{ '/teaching-portfolio/'  | relative_url }}">Teaching</a>
+    <a href="{{ '/diversity/'  | relative_url }}">Diversity &amp; Inclusion</a>
+
+    <!-- Coaching dropdown -->
+    <div class="dropdown" role="group" aria-label="Coaching">
+      <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false" aria-controls="servicesMenu">
+        Coaching ▼
+      </button>
+      <div class="dropdown-content" id="servicesMenu" role="menu">
+        <a role="menuitem" href="{{ '/executive-coaching/'            | relative_url }}">Executive Coaching</a>
+        <a role="menuitem" href="{{ '/life-coaching/'                 | relative_url }}">Life/Wellness Coaching</a>
+        <a role="menuitem" href="{{ '/gender-coaching/'               | relative_url }}">Gender &amp; Identity Coaching</a>
+        <a role="menuitem" href="{{ '/health-wellness-coaching/'      | relative_url }}">Health &amp; Wellness Coaching</a>
+        <a role="menuitem" href="{{ '/relationship-family-coaching/'  | relative_url }}">Relationship &amp; Family Coaching</a>
+      </div>
     </div>
-  </div>
 
-  <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    <a href="{{ '/faq/'     | relative_url }}">FAQ</a>
+    <a href="{{ '/rates-and-packages/' | relative_url }}">Rates</a>
+    <a href="{{ '/contact/' | relative_url }}">Contact</a>
+  </div>
 </nav>
 
 <script>
-  // Toggle the Coaching dropdown
+  // Mobile hamburger toggle
+  function toggleNav() {
+    const links = document.getElementById('nav-links');
+    const btn = document.querySelector('.nav-toggle');
+    const isOpen = links.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
+
+  // Coaching dropdown toggle (works in both mobile and desktop)
   function toggleDropdown(id) {
     const menu = document.getElementById(id);
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
+    const isOpen = menu.style.display === 'block';
+    menu.style.display = isOpen ? 'none' : 'block';
+    const btn = document.querySelector('.dropbtn');
+    if (btn) btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
   }
-  document.addEventListener('click', e => {
-    const menu = document.getElementById("servicesMenu");
-    if (!e.target.closest('.dropbtn')) menu.style.display = 'none';
+
+  // Close menus when clicking outside
+  document.addEventListener('click', (e) => {
+    const dropdown = document.getElementById('servicesMenu');
+    if (dropdown && !e.target.closest('.dropdown')) dropdown.style.display = 'none';
   });
 </script>
