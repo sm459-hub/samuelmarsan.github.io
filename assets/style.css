@@ -84,7 +84,13 @@ img { max-width: 100%; height: auto; }
   background:rgba(0,87,146,.08);
   color:var(--primary-blue-dark);
 }
-
+/* Match dropdown button font to nav links */
+.site-nav .dropbtn {
+  font-size: inherit;      /* match parent (same as nav links) */
+  font-weight: inherit;    /* match link font weight */
+  line-height: normal;     /* match link vertical spacing */
+  font-family: inherit;    /* ensure same typeface */
+}
 .nav-toggle{
   display:none; margin-left:auto;
   font-size:1.5rem; background:transparent; border:0; line-height:1; cursor:pointer;
