@@ -47,12 +47,10 @@ body {
   color: #212529;
   min-height: 100vh;
 }
-
-/* Make images responsive by default */
 img { max-width: 100%; height: auto; }
 
 /* ==========================================================================
-   Fixed header (match <nav class="site-nav"> in your HTML)
+   Fixed header nav
    ========================================================================== */
 .site-nav {
   position: fixed;
@@ -64,38 +62,44 @@ img { max-width: 100%; height: auto; }
   gap: 1rem;
   padding: 0.75rem 1rem;
   border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-/* Align the 'Home' brand button with other nav items */
-.site-nav .brand {
-  font-weight: 700;               /* slightly bolder than other links */
-  font-size: 1rem;                /* match link size */
-  padding: 0.5rem 0.75rem;        /* match link padding */
-  display: inline-block;
-  color: var(--primary-blue);
-  text-decoration: none;
+  flex-wrap: wrap;
 }
 
+/* Brand "Home" button */
+.site-nav .brand {
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-blue);
+  text-decoration: none !important;
+}
 .site-nav .brand:hover {
   color: var(--primary-blue-dark);
-  text-decoration: underline;
 }
 
-/* Keep spacing consistent when the menu collapses on mobile */
-@media (max-width: 800px) {
-  .site-nav .brand {
-    padding: 0.75rem 0.9rem;      /* slightly larger tap target on mobile */
-  }
-}
-}
-.site-nav a,
+/* Navigation links + dropdown button */
+.site-nav .nav-links a,
 .site-nav .dropbtn {
-  color: var(--primary-blue);
-  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
   font-weight: 600;
-  padding: .5rem .4rem; /* desktop tap targets */
+  color: var(--primary-blue);
+  text-decoration: none !important;
+  background: transparent;
+  border: none;
+}
+.site-nav .nav-links a:hover,
+.site-nav .dropbtn:hover {
+  background: rgba(0, 87, 146, 0.08);
+  color: var(--primary-blue-dark);
 }
 
-/* Hamburger (hidden on desktop) */
+/* Hamburger button (mobile only) */
 .nav-toggle {
   display: none;
   margin-left: auto;
@@ -106,7 +110,7 @@ img { max-width: 100%; height: auto; }
   cursor: pointer;
 }
 
-/* Dropdown */
+/* Dropdown menu */
 .dropdown { position: relative; }
 .dropdown-content {
   display: none;
@@ -119,7 +123,10 @@ img { max-width: 100%; height: auto; }
   padding: .5rem 0;
   z-index: 1001;
 }
-.dropdown-content a { display: block; padding: .6rem .9rem; }
+.dropdown-content a {
+  display: block;
+  padding: .6rem .9rem;
+}
 
 /* ==========================================================================
    Content card
@@ -160,7 +167,7 @@ summary:hover { text-decoration: underline; color: var(--primary-blue-dark); }
 /* Back to Top Button */
 #topBtn {
   display: none; position: fixed;
-  right: 30px; bottom: 80px; /* footer height + some space */
+  right: 30px; bottom: 80px;
   z-index: 1100;
   font-size: 1rem; border: none; outline: none;
   background-color: var(--primary-blue); color: white;
@@ -172,7 +179,7 @@ summary:hover { text-decoration: underline; color: var(--primary-blue-dark); }
 #topBtn:hover { background-color: var(--primary-blue-dark); }
 
 /* ==========================================================================
-   Card grid (home)
+   Card grid
    ========================================================================== */
 .card-grid {
   display: grid;
@@ -202,7 +209,7 @@ summary:hover { text-decoration: underline; color: var(--primary-blue-dark); }
 .button:hover { background-color: var(--primary-blue-dark); }
 
 /* ==========================================================================
-   Social footer (fixed)
+   Social footer
    ========================================================================== */
 .social-footer {
   position: fixed;
@@ -228,8 +235,6 @@ summary:hover { text-decoration: underline; color: var(--primary-blue-dark); }
 }
 .social-icon:hover { color: var(--primary-blue-dark); transform: scale(1.1); }
 .svg-icon { display: block; }
-
-/* Larger Psychology Today icon only */
 .social-icon.psychology-today { width: 48px; height: 48px; }
 
 /* ==========================================================================
@@ -248,7 +253,7 @@ summary:hover { text-decoration: underline; color: var(--primary-blue-dark); }
 }
 
 /* ==========================================================================
-   Google Scholar (plugin list)
+   Google Scholar
    ========================================================================== */
 .scholar-publications {
   list-style: none;
@@ -268,7 +273,7 @@ summary:hover { text-decoration: underline; color: var(--primary-blue-dark); }
 }
 
 /* ==========================================================================
-   Fluid type (readability across devices)
+   Fluid type
    ========================================================================== */
 h1 { font-size: clamp(1.5rem, 2.5vw + 1rem, 2.25rem); }
 h2 { font-size: clamp(1.25rem, 2vw + .75rem, 1.6rem); }
@@ -280,10 +285,8 @@ body { font-size: clamp(16px, 1.2vw + 12px, 18px); }
 @media (max-width: 800px) {
   :root { --nav-height: 56px; }
 
-  /* Hamburger visible */
   .nav-toggle { display: inline-block; }
 
-  /* Collapsible menu panel under the fixed header */
   .nav-links {
     position: fixed;
     top: var(--nav-height);
@@ -301,15 +304,14 @@ body { font-size: clamp(16px, 1.2vw + 12px, 18px); }
   }
   .nav-links.open { display: flex; }
 
-  /* Larger tap targets on mobile */
-  .site-nav a, .site-nav .dropbtn { padding: .9rem 1rem; }
+  .site-nav a, .site-nav .dropbtn, .site-nav .brand {
+    padding: .9rem 1rem;
+  }
 
-  /* Dropdown becomes inline on mobile */
   .dropdown-content {
     position: static; display: none; box-shadow: none; border: 0; padding: 0;
   }
 
-  /* Tighter content card */
   .content-wrapper {
     background: rgba(255,255,255,0.95);
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
