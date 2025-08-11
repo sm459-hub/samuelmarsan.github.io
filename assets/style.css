@@ -291,3 +291,33 @@ body { font-size: clamp(16px, 1.2vw + 12px, 18px); }
     padding: 1.5rem;
   }
 }
+/* ==========================================================================
+   Desktop header alignment (≥ 801px)
+   Keeps brand + links on one line; mobile unaffected
+   ========================================================================== */
+@media (min-width: 801px) {
+  .site-nav {
+    flex-wrap: nowrap;              /* no wrapping on desktop */
+    justify-content: flex-start;
+  }
+  .site-nav .brand {
+    margin-right: 2rem;             /* space between Home and first link */
+  }
+  /* Make the links row sit on the same line as the brand */
+  .nav-links {
+    display: flex !important;       /* force flex on desktop */
+    flex: 1;                        /* take remaining space */
+    justify-content: flex-start;    /* links flow left-to-right */
+    align-items: center;
+    gap: 0.5rem;
+    position: static;               /* ensure it's not fixed on desktop */
+  }
+  /* Desktop dropdown stays positioned absolutely under the button */
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+}
