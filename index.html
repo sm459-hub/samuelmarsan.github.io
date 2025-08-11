@@ -21,92 +21,124 @@
   <div class="background-layer"></div>
 
   <!-- Site header/nav -->
-  /* ===== Header (matches _includes/header.html) ============================== */
-.site-nav{
-  position:fixed; top:0; left:0; right:0;
-  background:rgba(255,255,255,0.95);
-  z-index:1000;
-  display:flex; align-items:center; gap:1rem;
-  padding:.75rem 1rem;
-  border-bottom:1px solid rgba(0,0,0,.06);
-  flex-wrap:wrap;
-}
+  <!-- File: _includes/header.html -->
+<nav class="site-nav" role="navigation" aria-label="Main site navigation">
+  <!-- Brand (acts as Home) -->
+  <a class="brand" href="/">Home</a>
 
-/* Brand “Home” button */
-.site-nav .brand{
-  display:inline-flex; align-items:center;
-  font-weight:700; font-size:1rem;
-  padding:.5rem .75rem;
-  color:var(--primary-blue);
-  text-decoration:none!important;
-}
-.site-nav .brand:hover{color:var(--primary-blue-dark)}
+  <!-- Hamburger (mobile only) -->
+  <button class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Toggle navigation"
+          onclick="toggleNav()">
+    &#9776;
+  </button>
 
-/* Tabs + dropdown trigger */
-.site-nav .nav-links a,
-.site-nav .dropbtn{
-  display:inline-flex; align-items:center; gap:.35rem;
-  padding:.5rem .75rem; border-radius:6px;
-  font-weight:600;
-  color:var(--primary-blue);
-  background:transparent; border:0;
-  text-decoration:none!important;
-}
-.site-nav .nav-links a:hover,
-.site-nav .dropbtn:hover{
-  background:rgba(0,87,146,.08);
-  color:var(--primary-blue-dark);
-}
+  <!-- Main links -->
+  <div id="nav-links" class="nav-links" data-collapsible>
+    <a href="/about/">About Me</a>
+    <a href="/research/">Research</a>
+    <a href="/teaching-portfolio/">Teaching</a>
+    <a href="/diversity/">Diversity &amp; Inclusion</a>
 
-/* Hamburger (mobile only by media query) */
-.nav-toggle{
-  display:none; margin-left:auto;
-  font-size:1.5rem; background:transparent; border:0; line-height:1; cursor:pointer;
-}
+    <!-- Coaching dropdown -->
+    <div class="dropdown" role="group" aria-label="Coaching menu">
+      <button class="dropbtn"
+              type="button"
+              aria-expanded="false"
+              aria-controls="servicesMenu"
+              onclick="toggleDropdown('servicesMenu')">
+        Coaching ▼
+      </button>
 
-/* Dropdown */
-.dropdown{ position:relative; }
-.dropdown-content{
-  display:none; position:absolute; top:100%; left:0; min-width:220px;
-  background:#fff; padding:.5rem 0;
-  border:1px solid rgba(0,0,0,.06);
-  box-shadow:0 6px 18px rgba(0,0,0,.08);
-  z-index:1001;
-}
-.dropdown-content a{ display:block; padding:.6rem .9rem; }
+      <div class="dropdown-content" id="servicesMenu" role="menu" hidden>
+        <a role="menuitem" href="/executive-coaching/">Executive Coaching</a>
+        <a role="menuitem" href="/life-coaching/">Life/Wellness Coaching</a>
+        <a role="menuitem" href="/gender-coaching/">Gender &amp; Identity Coaching</a>
+        <a role="menuitem" href="/health-wellness-coaching/">Health &amp; Wellness Coaching</a>
+        <a role="menuitem" href="/relationship-family-coaching/">Relationship &amp; Family Coaching</a>
+      </div>
 
-/* Content spacing so fixed header/footer don’t overlap (keep once in file) */
-.main-layer{
-  padding-top:calc(var(--nav-height) + 8px);
-  padding-bottom:calc(var(--footer-height) + 16px);
-}
+      <noscript>
+        <a href="/rates-and-packages/">All Coaching Services</a>
+      </noscript>
+    </div>
 
-/* ===== Mobile (≤800px) ===================================================== */
-@media (max-width:800px){
-  :root{ --nav-height:56px; }
+    <a href="/faq/">FAQ</a>
+    <a href="/rates-and-packages/">Rates</a>
+    <a href="/contact/">Contact</a>
+  </div>
+</nav>
 
-  .nav-toggle{ display:inline-block; }
-
-  /* Collapsible panel under header */
-  .nav-links{
-    position:fixed; top:var(--nav-height); left:0; right:0;
-    display:none;
-    flex-direction:column; align-items:stretch; gap:0;
-    background:rgba(255,255,255,.98);
-    border-bottom:1px solid rgba(0,0,0,.06);
-    padding:.5rem 0; max-height:calc(100vh - var(--nav-height));
-    overflow-y:auto; z-index:1000;
+<script>
+  // Toggle the mobile nav panel
+  function toggleNav() {
+    const panel = document.getElementById('nav-links');
+    const btn   = document.querySelector('.nav-toggle');
+    const open  = panel.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
   }
-  .nav-links.open{ display:flex; }
 
-  /* Bigger tap targets */
-  .site-nav .brand,
-  .site-nav .nav-links a,
-  .site-nav .dropbtn{ padding:.9rem 1rem; }
+  // Toggle Coaching dropdown (desktop & mobile)
+  function toggleDropdown(id) {
+    const menu = document.getElementById(id);
+    const btn  = document.querySelector('.dropbtn');
+    const isHidden = menu.hasAttribute('hidden') || menu.style.display === 'none';
+    if (isHidden) {
+      menu.removeAttribute('hidden');
+      menu.style.display = 'block';
+      btn && btn.setAttribute('aria-expanded', 'true');
+    } else {
+      menu.setAttribute('hidden', '');
+      menu.style.display = 'none';
+      btn && btn.setAttribute('aria-expanded', 'false');
+    }
+  }
 
-  /* Dropdown becomes inline inside the panel */
-  .dropdown-content{ position:static; display:none; box-shadow:none; border:0; padding:0; }
-}
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    const menu = document.getElementById('servicesMenu');
+    const inside = e.target.closest('.dropdown');
+    if (menu && !inside) {
+      menu.setAttribute('hidden', '');
+      menu.style.display = 'none';
+      const btn = document.querySelector('.dropbtn');
+      btn && btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Close menus with Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    // Close dropdown
+    const menu = document.getElementById('servicesMenu');
+    if (menu && !menu.hasAttribute('hidden')) {
+      menu.setAttribute('hidden', '');
+      menu.style.display = 'none';
+      const btn = document.querySelector('.dropbtn');
+      btn && btn.setAttribute('aria-expanded', 'false');
+    }
+    // Close mobile nav
+    const panel = document.getElementById('nav-links');
+    const toggle = document.querySelector('.nav-toggle');
+    if (panel && panel.classList.contains('open')) {
+      panel.classList.remove('open');
+      toggle && toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Ensure mobile panel closes when resizing to desktop
+  window.addEventListener('resize', () => {
+    const panel = document.getElementById('nav-links');
+    const toggle = document.querySelector('.nav-toggle');
+    if (window.innerWidth > 800 && panel && panel.classList.contains('open')) {
+      panel.classList.remove('open');
+      toggle && toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+</script>
 
 
   <!-- Scrollable main content -->
