@@ -87,7 +87,7 @@ img { max-width: 100%; height: auto; }
 /* Match dropdown button font to nav links */
 .site-nav .dropbtn {
   font-size: inherit;      /* match parent (same as nav links) */
-  font-weight: inherit;    /* match link font weight */
+  font-weight: 600;    /* match the boldness */
   line-height: normal;     /* match link vertical spacing */
   font-family: inherit;    /* ensure same typeface */
 }
