@@ -50,83 +50,55 @@ body {
 img { max-width: 100%; height: auto; }
 
 /* ==========================================================================
-   Fixed header nav
+   Header
    ========================================================================== */
-.site-nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  background: rgba(255,255,255,0.95);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-  flex-wrap: wrap;
+.site-nav{
+  position:fixed; top:0; left:0; right:0;
+  background:rgba(255,255,255,0.95);
+  z-index:1000;
+  display:flex; align-items:center; gap:1rem;
+  padding:.75rem 1rem;
+  border-bottom:1px solid rgba(0,0,0,.06);
+  flex-wrap:wrap;
 }
+.site-nav .brand{
+  display:inline-flex; align-items:center;
+  font-weight:700; font-size:1rem;
+  padding:.5rem .75rem;
+  color:var(--primary-blue);
+  text-decoration:none!important;
+}
+.site-nav .brand:hover{ color:var(--primary-blue-dark); }
 
-/* Brand "Home" button */
-.site-nav .brand {
-  font-weight: 700;
-  font-size: 1rem;
-  padding: 0.5rem 0.75rem;
-  display: inline-flex;
-  align-items: center;
-  color: var(--primary-blue);
-  text-decoration: none !important;
-}
-.site-nav .brand:hover {
-  color: var(--primary-blue-dark);
-}
-
-/* Navigation links + dropdown button */
 .site-nav .nav-links a,
-.site-nav .dropbtn {
-  display: inline-flex;
-  align-items: center;
-  gap: .35rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 6px;
-  font-weight: 600;
-  color: var(--primary-blue);
-  text-decoration: none !important;
-  background: transparent;
-  border: none;
+.site-nav .dropbtn{
+  display:inline-flex; align-items:center; gap:.35rem;
+  padding:.5rem .75rem; border-radius:6px;
+  font-weight:600;
+  color:var(--primary-blue);
+  background:transparent; border:0;
+  text-decoration:none!important;
 }
 .site-nav .nav-links a:hover,
-.site-nav .dropbtn:hover {
-  background: rgba(0, 87, 146, 0.08);
-  color: var(--primary-blue-dark);
+.site-nav .dropbtn:hover{
+  background:rgba(0,87,146,.08);
+  color:var(--primary-blue-dark);
 }
 
-/* Hamburger button (mobile only) */
-.nav-toggle {
-  display: none;
-  margin-left: auto;
-  font-size: 1.5rem;
-  background: transparent;
-  border: 0;
-  line-height: 1;
-  cursor: pointer;
+.nav-toggle{
+  display:none; margin-left:auto;
+  font-size:1.5rem; background:transparent; border:0; line-height:1; cursor:pointer;
 }
 
-/* Dropdown menu */
-.dropdown { position: relative; }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%; left: 0;
-  min-width: 220px;
-  background: #fff;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  border: 1px solid rgba(0,0,0,0.06);
-  padding: .5rem 0;
-  z-index: 1001;
+.dropdown{ position:relative; }
+.dropdown-content{
+  display:none; position:absolute; top:100%; left:0; min-width:220px;
+  background:#fff; padding:.5rem 0;
+  border:1px solid rgba(0,0,0,.06);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+  z-index:1001;
 }
-.dropdown-content a {
-  display: block;
-  padding: .6rem .9rem;
-}
+.dropdown-content a{ display:block; padding:.6rem .9rem; }
 
 /* ==========================================================================
    Content card
@@ -304,9 +276,9 @@ body { font-size: clamp(16px, 1.2vw + 12px, 18px); }
   }
   .nav-links.open { display: flex; }
 
-  .site-nav a, .site-nav .dropbtn, .site-nav .brand {
-    padding: .9rem 1rem;
-  }
+  .site-nav .brand,
+  .site-nav .nav-links a,
+  .site-nav .dropbtn { padding: .9rem 1rem; }
 
   .dropdown-content {
     position: static; display: none; box-shadow: none; border: 0; padding: 0;
