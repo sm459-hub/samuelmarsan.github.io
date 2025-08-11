@@ -1,61 +1,86 @@
-<!-- File: _includes/header.html -->
-<nav class="site-nav" role="navigation" aria-label="Main site navigation">
-  <a class="brand" href="{{ '/' | relative_url }}">Home</a>
+/* ===== Header (matches _includes/header.html) ============================== */
+.site-nav{
+  position:fixed; top:0; left:0; right:0;
+  background:rgba(255,255,255,0.95);
+  z-index:1000;
+  display:flex; align-items:center; gap:1rem;
+  padding:.75rem 1rem;
+  border-bottom:1px solid rgba(0,0,0,.06);
+  flex-wrap:wrap;
+}
 
-  <!-- Hamburger button (mobile only) -->
-  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" onclick="toggleNav()">
-    <span class="sr-only">Toggle navigation</span>
-    &#9776;
-  </button>
+/* Brand “Home” button */
+.site-nav .brand{
+  display:inline-flex; align-items:center;
+  font-weight:700; font-size:1rem;
+  padding:.5rem .75rem;
+  color:var(--primary-blue);
+  text-decoration:none!important;
+}
+.site-nav .brand:hover{color:var(--primary-blue-dark)}
 
-  <!-- All links live here -->
-  <div id="nav-links" class="nav-links" data-collapsible>
-    <a href="{{ '/about/'  | relative_url }}">About Me</a>
-    <a href="{{ '/research/'  | relative_url }}">Research</a>
-    <a href="{{ '/teaching-portfolio/'  | relative_url }}">Teaching</a>
-    <a href="{{ '/diversity/'  | relative_url }}">Diversity &amp; Inclusion</a>
+/* Tabs + dropdown trigger */
+.site-nav .nav-links a,
+.site-nav .dropbtn{
+  display:inline-flex; align-items:center; gap:.35rem;
+  padding:.5rem .75rem; border-radius:6px;
+  font-weight:600;
+  color:var(--primary-blue);
+  background:transparent; border:0;
+  text-decoration:none!important;
+}
+.site-nav .nav-links a:hover,
+.site-nav .dropbtn:hover{
+  background:rgba(0,87,146,.08);
+  color:var(--primary-blue-dark);
+}
 
-    <!-- Coaching dropdown -->
-    <div class="dropdown" role="group" aria-label="Coaching">
-      <button class="dropbtn" onclick="toggleDropdown('servicesMenu')" aria-expanded="false" aria-controls="servicesMenu">
-        Coaching ▼
-      </button>
-      <div class="dropdown-content" id="servicesMenu" role="menu">
-        <a role="menuitem" href="{{ '/executive-coaching/'            | relative_url }}">Executive Coaching</a>
-        <a role="menuitem" href="{{ '/life-coaching/'                 | relative_url }}">Life/Wellness Coaching</a>
-        <a role="menuitem" href="{{ '/gender-coaching/'               | relative_url }}">Gender &amp; Identity Coaching</a>
-        <a role="menuitem" href="{{ '/health-wellness-coaching/'      | relative_url }}">Health &amp; Wellness Coaching</a>
-        <a role="menuitem" href="{{ '/relationship-family-coaching/'  | relative_url }}">Relationship &amp; Family Coaching</a>
-      </div>
-    </div>
+/* Hamburger (mobile only by media query) */
+.nav-toggle{
+  display:none; margin-left:auto;
+  font-size:1.5rem; background:transparent; border:0; line-height:1; cursor:pointer;
+}
 
-    <a href="{{ '/faq/'     | relative_url }}">FAQ</a>
-    <a href="{{ '/rates-and-packages/' | relative_url }}">Rates</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
-  </div>
-</nav>
+/* Dropdown */
+.dropdown{ position:relative; }
+.dropdown-content{
+  display:none; position:absolute; top:100%; left:0; min-width:220px;
+  background:#fff; padding:.5rem 0;
+  border:1px solid rgba(0,0,0,.06);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+  z-index:1001;
+}
+.dropdown-content a{ display:block; padding:.6rem .9rem; }
 
-<script>
-  // Mobile hamburger toggle
-  function toggleNav() {
-    const links = document.getElementById('nav-links');
-    const btn = document.querySelector('.nav-toggle');
-    const isOpen = links.classList.toggle('open');
-    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+/* Content spacing so fixed header/footer don’t overlap (keep once in file) */
+.main-layer{
+  padding-top:calc(var(--nav-height) + 8px);
+  padding-bottom:calc(var(--footer-height) + 16px);
+}
+
+/* ===== Mobile (≤800px) ===================================================== */
+@media (max-width:800px){
+  :root{ --nav-height:56px; }
+
+  .nav-toggle{ display:inline-block; }
+
+  /* Collapsible panel under header */
+  .nav-links{
+    position:fixed; top:var(--nav-height); left:0; right:0;
+    display:none;
+    flex-direction:column; align-items:stretch; gap:0;
+    background:rgba(255,255,255,.98);
+    border-bottom:1px solid rgba(0,0,0,.06);
+    padding:.5rem 0; max-height:calc(100vh - var(--nav-height));
+    overflow-y:auto; z-index:1000;
   }
+  .nav-links.open{ display:flex; }
 
-  // Coaching dropdown toggle (works in both mobile and desktop)
-  function toggleDropdown(id) {
-    const menu = document.getElementById(id);
-    const isOpen = menu.style.display === 'block';
-    menu.style.display = isOpen ? 'none' : 'block';
-    const btn = document.querySelector('.dropbtn');
-    if (btn) btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
-  }
+  /* Bigger tap targets */
+  .site-nav .brand,
+  .site-nav .nav-links a,
+  .site-nav .dropbtn{ padding:.9rem 1rem; }
 
-  // Close menus when clicking outside
-  document.addEventListener('click', (e) => {
-    const dropdown = document.getElementById('servicesMenu');
-    if (dropdown && !e.target.closest('.dropdown')) dropdown.style.display = 'none';
-  });
-</script>
+  /* Dropdown becomes inline inside the panel */
+  .dropdown-content{ position:static; display:none; box-shadow:none; border:0; padding:0; }
+}
