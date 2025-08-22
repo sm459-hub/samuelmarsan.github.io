@@ -33,12 +33,12 @@ I offer an affirming, non-judgmental space rooted in:
 
 ### Focus Areas
 
-- 💬 Communication & active listening
-- 🧠 Navigating neurodivergence in relationships (e.g., ADHD, autism)
-- ❤️ LGBTQIA+ and gender-affirming family support
-- 🔄 Breaking unhelpful cycles or legacy burdens
-- 📚 Psychoeducation around behavior, development, and change
-- 🧭 Value-aligned boundary setting and co-regulation strategies
+- Communication & active listening
+- Navigating neurodivergence in relationships (e.g., ADHD, autism)
+- LGBTQIA+ and gender-affirming family support
+- Breaking unhelpful cycles or legacy burdens
+- Psychoeducation around behavior, development, and change
+- Value-aligned boundary setting and co-regulation strategies
 
 ---
 
