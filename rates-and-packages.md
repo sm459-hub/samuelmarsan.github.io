@@ -20,7 +20,7 @@ All coaching services are private-pay only. I offer flexible options to accommod
 
 ---
 
-### 📦 Coaching Packages
+### Coaching Packages
 
 Save by purchasing a bundle of sessions upfront. Packages include session planning and asynchronous support (email or brief text check-ins).
 
@@ -34,7 +34,7 @@ Packages are valid for 6 months and are non-refundable once sessions begin.
 
 ---
 
-### 🎗️ Sliding Scale
+### Sliding Scale
 
 A limited number of sliding-scale appointments are available for:
 
@@ -46,7 +46,7 @@ Please [contact me](/contact/) for more details.
 
 ---
 
-### 🛑 Important Notes
+### Important Notes
 
 - Coaching is **not therapy** and does not involve diagnosis or insurance billing.
 - I do not accept insurance or provide documentation for reimbursement.
