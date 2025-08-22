@@ -57,6 +57,6 @@ Sliding-scale rates are available. I do not bill insurance.
 ## How to Get Started
 
 Interested in executive functioning support?  
-[📬 Contact Me](/contact/) or email me at [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com) to request a free 15-minute consultation.
+[Contact Me](/contact/) or email me at [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com) to request a free 15-minute consultation.
 
 ---
