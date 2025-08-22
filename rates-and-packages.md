@@ -8,7 +8,7 @@ permalink: /rates-and-packages/
 
 All coaching services are private-pay only. I offer flexible options to accommodate different needs, including sliding-scale slots and bundled packages.
 
-### 🧭 Standard Rates
+### Standard Rates
 
 | Coaching Service                         | Duration         | Rate (USD)          |
 |------------------------------------------|------------------|---------------------|
