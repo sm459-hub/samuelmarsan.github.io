@@ -36,12 +36,12 @@ I integrate insights from clinical psychology, eating disorder prevention, and l
 
 ### Example Focus Areas
 
-- 🌿 Meal planning with neurodivergent or sensory needs in mind  
-- 💤 Sleep hygiene and stress reduction  
-- 🧘🏽‍♂️ Coping skills for emotional eating  
-- 🍽️ Body image and embodiment  
-- 🧠 Psychoeducation on nervous system regulation  
-- 📆 Routine-building that honors capacity and flexibility  
+- Meal planning with neurodivergent or sensory needs in mind  
+- Sleep hygiene and stress reduction  
+- Coping skills for emotional eating  
+- Body image and embodiment  
+- Psychoeducation on nervous system regulation  
+- Routine-building that honors capacity and flexibility  
 
 ---
 
