@@ -4,13 +4,13 @@ layout: default
 permalink: /faq/
 ---
 
-### ❓ How is coaching different from psychotherapy or psychiatry?
+### How is coaching different from psychotherapy or psychiatry?
 
 **Coaching** is a collaborative, goal-focused relationship that supports skill-building, life planning, and personal growth. Unlike therapy or psychiatry:
 
-- 🧠 **No diagnosis is needed** — you can seek coaching for personal development without qualifying for a mental health disorder.
-- 🔮 **It’s future-oriented** — coaching focuses on where you want to go, not just where you’ve been.
-- 💬 **It’s de-stigmatizing** — there are no medical labels or insurance records attached to coaching services.
+- **No diagnosis is needed** — you can seek coaching for personal development without qualifying for a mental health disorder.
+- **It’s future-oriented** — coaching focuses on where you want to go, not just where you’ve been.
+- **It’s de-stigmatizing** — there are no medical labels or insurance records attached to coaching services.
 
 By contrast:
 
@@ -19,7 +19,7 @@ By contrast:
 
 ---
 
-### 💬 Why do clients choose coaching over therapy or psychiatry?
+### Why do clients choose coaching over therapy or psychiatry?
 
 Some clients prefer coaching because:
 
@@ -37,7 +37,7 @@ Coaching may be especially appealing to:
 
 ---
 
-### 💸 What are your coaching rates?
+### What are your coaching rates?
 
 Rates vary depending on the type and length of service. Typical options include:
 
@@ -49,7 +49,7 @@ Each session includes individualized attention, preparation, and follow-up suppo
 
 ---
 
-### 🧾 Do you accept insurance?
+### Do you accept insurance?
 
 No, coaching services are **not covered by insurance**. This helps ensure:
 
@@ -61,7 +61,7 @@ Many clients find coaching to be a **worthwhile investment in long-term growth**
 
 ---
 
-### 🎓 Who trained you in coaching-related practices?
+### Who trained you in coaching-related practices?
 
 While not a traditional coaching certification, my background in **clinical psychology** and extensive practicum training forms the foundation of my coaching:
 
