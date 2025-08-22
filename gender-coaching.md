@@ -55,6 +55,6 @@ Sliding-scale and pro-bono spots available for trans clients in financial need.
 ## Ready to Begin?
 
 You are not alone.  
-[📬 Contact Me](/contact/) or email me at [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com) to schedule a free 15-minute consultation.
+[Contact Me](/contact/) or email me at [samuelmarsan@gmail.com](mailto:samuelmarsan@gmail.com) to schedule a free 15-minute consultation.
 
 ---
