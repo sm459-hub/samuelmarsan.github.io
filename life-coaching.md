@@ -37,4 +37,4 @@ Sessions are supportive, affirming, and evidence-informed. As a doctoral-level c
 
 For those with intersecting identities—such as neurodivergence, multilingual backgrounds, or LGBTQIA+ identity—coaching will always affirm and celebrate your lived experience.
 
-[📬 Contact me to learn more](/contact/)
+[Contact me to learn more](/contact/)
