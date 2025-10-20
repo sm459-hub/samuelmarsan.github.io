@@ -21,7 +21,27 @@
   <div class="background-layer"></div>
 
   <!-- Site header/nav -->
-  <!-- File: _includes/header.html -->
+  <!-- GLOBAL TEMP REDIRECT to CV PDF -->
+<script>
+(function () {
+  // Bypass with ?no-redirect=1 (handy for you to preview the site)
+  var q = new URLSearchParams(location.search);
+  if (q.get('no-redirect') === '1') return;
+
+  var pdf = '/assets/Samuel_Marsan_CV_2025.pdf';
+  if (location.pathname !== pdf) {
+    // Hard redirect (no back button loop)
+    location.replace(pdf);
+  }
+})();
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=/assets/Samuel_Marsan_CV_2025.pdf">
+</noscript>
+<!-- END GLOBAL TEMP REDIRECT -->
+
+
+<!-- File: _includes/header.html -->
 <nav class="site-nav" role="navigation" aria-label="Main site navigation">
   <!-- Brand (acts as Home) -->
   <a class="brand" href="/">Home</a>
