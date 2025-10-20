@@ -3,6 +3,22 @@ layout: home
 title: Welcome
 permalink: /
 ---
+
+<!-- BEGIN: Temporary redirect to CV (remove this block later to restore homepage) -->
+<meta http-equiv="refresh" content="0; url=/cv" />
+<script>
+  (function() {
+    // Optional bypass: add ?no-redirect=1 to preview the homepage
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('no-redirect') === '1') return;
+    window.location.replace("/cv");
+  })();
+</script>
+<noscript>
+  <p>If you are not redirected automatically, <a href="/cv">open the CV page</a>.</p>
+</noscript>
+<!-- END: Temporary redirect to CV -->
+
 <!-- Wrap the intro in .content-wrapper to get the opaque panel style -->
 <div class="content-wrapper">
   <h1>¡Hola!</h1>
@@ -59,6 +75,7 @@ permalink: /
     </div>
   </li>
 </ul>
+
 
 
 
